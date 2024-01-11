@@ -6,6 +6,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 3000;
 
+const bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/styles", express.static("public/styles"));
 app.use("/js", express.static("public/js"));
 app.set("view engine", "hbs");
@@ -23,10 +25,24 @@ app.get("/", function (req, res) {
 		title: "Karaoke Night"
 	});
 });
+
 app.get("/obtain-song", function (req, res) {
 	let song = songsInfo[Math.floor(Math.random() * songsInfo.length)]
 	res.json(song)
 });
+
+app.get("/add-song", function (req, res) {
+	res.render("addSong", {
+		title: "Karaoke Night - Add"
+	});
+});
+
+app.post("/add-song", function (req, res) {
+	console.log(req.body)
+	res.send(req.body)
+});
+
+
 
 
 // app.get("/text-to", function (req, res) {
