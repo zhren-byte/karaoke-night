@@ -29,26 +29,26 @@ app.get("/obtain-song", function (req, res) {
 });
 
 
-// app.get("/text-to", function (req, res) {
-//   let lyrics = [];
-//   var lineReader = require("readline").createInterface({
-//     input: require("fs").createReadStream("awdo.txt"),
-//   });
+app.get("/text-to", function (req, res) {
+  let lyrics = [];
+  var lineReader = require("readline").createInterface({
+    input: require("fs").createReadStream("awdo.txt"),
+  });
 
-//   lineReader.on("line", function (line) {
-//     if (line === "") return lyrics.push("<br>")
-//     lyrics.push(line);
-//   });
+  lineReader.on("line", function (line) {
+    if (line === "") return lyrics.push("<br>")
+    lyrics.push(line);
+  });
 
-//   lineReader.on("close", function () {
-//     fileInfo[0].lyrics = lyrics;
-//     fs.writeFileSync(fileInfoPath, JSON.stringify(fileInfo, null, 2));
-//   });
-//   res.render("index", {
-//     title: "Karaoke",
-//   });
-//   res.send(fileInfo[0]);
-// });
+  lineReader.on("close", function () {
+    fileInfo[0].lyrics = lyrics;
+    fs.writeFileSync(fileInfoPath, JSON.stringify(fileInfo, null, 2));
+  });
+  res.render("index", {
+    title: "Karaoke",
+  });
+  res.send(fileInfo[0]);
+});
 
 app.listen(port, () => {
 	console.log(`>> Server: http://localhost:${port}`);
