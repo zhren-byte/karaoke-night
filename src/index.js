@@ -6,15 +6,14 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT || 3000;
 
-const bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json()); 
 app.use("/styles", express.static("public/styles"));
 app.use("/js", express.static("public/js"));
 app.set("view engine", "hbs");
 app.set("views", __dirname + "/views");
 
 const songsPath = path.join(__dirname, "songs.json");
-let songsInfo = {};
+let songsInfo;
 if (fs.existsSync(songsPath)) {
 	const songsData = fs.readFileSync(songsPath, "utf8");
 	songsInfo = JSON.parse(songsData);
@@ -38,12 +37,13 @@ app.get("/add-song", function (req, res) {
 });
 
 app.post("/add-song", function (req, res) {
-	console.log(req.body)
-	res.send(req.body)
+  songsInfo.push({
+    name: req.body.songTitle,
+    author: req.body.songArtist,
+    lyrics: req.body.songLyrics.split("\n")
+  })
+  fs.writeFileSync(songsPath, JSON.stringify(songsInfo, null, 2));
 });
-
-
-
 
 app.get("/text-to", function (req, res) {
   let lyrics = [];

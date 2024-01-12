@@ -8,12 +8,12 @@ xhttp.onreadystatechange = function () {
     song.querySelector("#name").innerHTML = res.name;
 
     let currentIndex = 0;
+    let lineInScreen = 0;
     let startTime = 0;
 
     function updateProgressBar(timestamp) {
       const duration = timestamp;
 
-      let startTime;
       function animate(timestamp) {
         if (!startTime) startTime = timestamp;
         const progress = timestamp - startTime;
@@ -33,33 +33,49 @@ xhttp.onreadystatechange = function () {
         let line = res.lyrics[currentIndex];
         const timestampMatch = /\[(\d+:\d+\.\d+)\]/.exec(line);
 
-        if (timestampMatch) line = line.replace(timestampMatch[0], "");
-
-        lyricsDiv.querySelectorAll("p").forEach((e) => (e.classList = "mb-4"));
-
-        function createLyricsElement(line) {
-          const p = document.createElement("p");
-          p.classList.add("mb-4", "bg-blue-500", "px-1", "rounded");
-          p.textContent = line;
-          return p;
-        }
-
-        lyricsDiv.appendChild(createLyricsElement(line));
-        // const percentage = (currentIndex / res.lyrics.length) * 100;
-        // progressBar.style.width = `${percentage}%`;
         if (timestampMatch) {
+          line = line.replace(timestampMatch[0], "");
+          lyricsDiv.appendChild(
+            createLyricsElement(
+              line,
+              "translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition ease-in-out text-2xl"
+            )
+          );
           const [minutes, seconds] = timestampMatch[1]
             .split(":")
             .map(parseFloat);
           const currentTime = minutes * 60 + seconds;
 
-          // Calcular el tiempo restante hasta la siguiente línea
           const intervalTime = (currentTime - startTime) * 1000;
           startTime = currentTime;
-
           await new Promise((resolve) => setTimeout(resolve, intervalTime));
         }
 
+        function createLyricsElement(line, arr) {
+          const p = document.createElement("p");
+          p.classList = arr;
+          p.textContent = line;
+          return p;
+        }
+        if (lyricsDiv.childNodes.length >= 3) {
+          lyricsDiv.removeChild(lyricsDiv.firstElementChild); // Elimina la línea anterior
+          lyricsDiv.removeChild(lyricsDiv.firstElementChild.nextElementSibling); // Elimina la línea anterior
+        }
+        if (lyricsDiv.firstElementChild != null) {
+          lyricsDiv.firstElementChild.classList =
+            "-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition ease-in-out text-gray-600";
+          if (lyricsDiv.firstElementChild.nextElementSibling != null) {
+            lyricsDiv.firstElementChild.nextElementSibling.classList =
+              "-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition ease-in-out text-gray-500";
+          }
+        }
+
+        lyricsDiv.appendChild(
+          createLyricsElement(
+            res.lyrics[currentIndex + 2],
+            "translate-y-[200%] -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform ease-in-out text-gray-500"
+          )
+        );
         currentIndex++;
         displayLyrics();
       }

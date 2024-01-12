@@ -14,10 +14,14 @@
             <h1 class="text-4xl font-bold">{{ title }}</h1>
         </header>
         <main class="flex-1 flex flex-col justify-center items-center">
-            <div class="text-center" id="song">
+            <div class="h-2/3 text-center" id="song">
                 <h2 class="text-3xl font-semibold mb-2" id="name">Bohemian Rhapsody</h2>
                 <h3 class="text-xl mb-8" id="author">Queen</h3>
-                <div class="text-lg leading-relaxed" id="lyrics"></div>
+                <div class="text-lg leading-relaxed h-1/2 relative" id="lyrics">
+                    {{!-- <p class="-translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500 ">Is this the real life? Is this just fantasy?</p>
+                    <p class="-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-2xl">Caught in a landslide, no escape from reality</p>
+                    <p class="translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500">Open your eyes, look up to the skies and see</p> --}}
+                </div>
             </div>
         </main>
         <footer class="h-16 bg-gray-800">
@@ -29,6 +33,7 @@
         </footer>
     </div>
     <script src="./js/obtain-song.js"></script>
+    {{!-- <script src="./js/moveLyrics.js"></script> --}}
 </body>
 
 </html>
