@@ -1,14 +1,1345 @@
 [
-  {
-    "name": "Test",
-    "author": "Plan B",
-    "lyrics": [
-      "[00:02.65]Es fanática de lo sensual",
-      "[00:04.67]Ella tiene una foto mía",
-      "[00:08.66]Y ya me la puedo imaginar",
-      "[00:12.66]Lo que hace cuando esta sólita",
-      "[00:16.41]Pero yo le voy a preguntar",
-      "[00:20.41]Y a escuchar su voz cuando se agita"
-    ]
-  }
+	{
+		"lyrics": {
+			"syncType": "LINE_SYNCED",
+			"lines": [
+				{
+					"startTimeMs": "11510",
+					"words": "Tengo tiempo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "13960",
+					"words": "Para saber",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "16890",
+					"words": "Si lo que sueño concluye en algo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "20860",
+					"words": "No te apures",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "23490",
+					"words": "Ya más, loco",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "26170",
+					"words": "Porque es entonces cuando las horas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "30150",
+					"words": "Bajan, el día",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "35390",
+					"words": "Es vidrio sin sol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "41240",
+					"words": "Bajan, la noche",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "46420",
+					"words": "Te oculta la voz",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "51620",
+					"words": "Y además",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "55080",
+					"words": "Vos querés Sol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "60370",
+					"words": "Despacio también",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "65040",
+					"words": "Podés hallar la Luna",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "69510",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "82960",
+					"words": "Viejo roble",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "85250",
+					"words": "Del camino",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "87940",
+					"words": "Tus hojas siempre se agitan algo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "92400",
+					"words": "Nena, nena",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "94860",
+					"words": "Qué bien te ves",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "97610",
+					"words": "Cuando en tus ojos no importa si las horas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "101570",
+					"words": "Bajan, el día",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "106540",
+					"words": "Se sienta a morir",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "112180",
+					"words": "Bajan, la noche",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "117410",
+					"words": "Se nubla sin fin",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "122740",
+					"words": "Y además",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "125930",
+					"words": "Vos sos el Sol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "131320",
+					"words": "Despacio también",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "136170",
+					"words": "Podés ser la Luna",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "139310",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				}
+			],
+			"provider": "MusixMatch",
+			"providerLyricsId": "25281276",
+			"providerDisplayName": "Musixmatch",
+			"syncLyricsUri": "",
+			"isDenseTypeface": false,
+			"alternatives": [],
+			"language": "es",
+			"isRtlLanguage": false,
+			"fullscreenAction": "FULLSCREEN_LYRICS",
+			"showUpsell": false,
+			"capStatus": "NONE",
+			"impressionsRemaining": 0
+		},
+		"colors": {
+			"background": -15562240,
+			"text": -16777216,
+			"highlightText": -1
+		},
+		"hasVocalRemoval": false
+	},
+	{
+		"lyrics": {
+			"syncType": "LINE_SYNCED",
+			"lines": [
+				{
+					"startTimeMs": "1020",
+					"words": "Recordando tu expresión",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "6140",
+					"words": "Vuelvo a desear",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "9330",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "11700",
+					"words": "Esas noches de calor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "16590",
+					"words": "Llenas de ansiedad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "19580",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "22070",
+					"words": "Sofocado por el sueño y la presión",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "29020",
+					"words": "Busco un cuerpo para amar",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "33150",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "36130",
+					"words": "La distancia va perdiendo su espesor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "43220",
+					"words": "Pronta entrega, por favor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "49010",
+					"words": "Me puedo estimular",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "52490",
+					"words": "Con música y alcohol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "56010",
+					"words": "Pero me excito más",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "58930",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "62570",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "66050",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "69520",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "72280",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "74620",
+					"words": "Sofocado por el sueño y la presión",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "81980",
+					"words": "Busco un cuerpo para amar",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "85990",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "88790",
+					"words": "La distancia va perdiendo su espesor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "95700",
+					"words": "Pronta entrega, por favor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "101730",
+					"words": "Me puedo estimular",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "105260",
+					"words": "Con música y alcohol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "108760",
+					"words": "Pero me excito más",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "111690",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "115020",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "118480",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "122080",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "125160",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "127460",
+					"words": "Recordando tu expresión",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "132330",
+					"words": "Vuelvo a desear",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "135310",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "137930",
+					"words": "Esas noches de calor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "142740",
+					"words": "Llenas de ansiedad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "145780",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "175270",
+					"words": "Me puedo estimular",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "178750",
+					"words": "Con música y alcohol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "182390",
+					"words": "Pero me excito más",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "185280",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "188530",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "192160",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "195500",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "198280",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "200970",
+					"words": "Recordando tu expresión",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "206180",
+					"words": "Vuelvo a desear",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "208910",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "211510",
+					"words": "Esas noches de calor",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "216570",
+					"words": "Llenas de ansiedad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "220200",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "223750",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "227240",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "230750",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "234370",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "237770",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "241240",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "244770",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "248470",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "251980",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "255230",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "258440",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "262190",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "265670",
+					"words": "Siento todo irreal",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "269330",
+					"words": "Cuando es con vos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "270040",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				}
+			],
+			"provider": "MusixMatch",
+			"providerLyricsId": "8512583",
+			"providerDisplayName": "Musixmatch",
+			"syncLyricsUri": "",
+			"isDenseTypeface": false,
+			"alternatives": [],
+			"language": "es",
+			"isRtlLanguage": false,
+			"fullscreenAction": "FULLSCREEN_LYRICS",
+			"showUpsell": false,
+			"capStatus": "NONE",
+			"impressionsRemaining": 0
+		},
+		"colors": {
+			"background": -2804099,
+			"text": -16777216,
+			"highlightText": -1
+		},
+		"hasVocalRemoval": false
+	},
+	{
+		"lyrics": {
+			"syncType": "LINE_SYNCED",
+			"lines": [
+				{
+					"startTimeMs": "16990",
+					"words": "¿Por qué, si es un rocanrol?",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "19250",
+					"words": "Y yo no sé si a tu perro le gusta ladrar a lo bobo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "24720",
+					"words": "Mi perro, no, no quiere, no",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "28920",
+					"words": "Con el hocico afiebrado, no",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "31340",
+					"words": "Recuperando palitos, corriendo a lo bobo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "35280",
+					"words": "¿Por qué, si es su rocanrol?",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "37850",
+					"words": "No, no, no, más culo mojado",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "43880",
+					"words": "No, no, no, o quizá algún fueguito",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "49440",
+					"words": "Aquí y allá, algún fueguito ensaya mi perro",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "53340",
+					"words": "¡Porque este es su rocanrol!",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "57700",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "74190",
+					"words": "Mi perro dinamita está fiero como un tártaro",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "79800",
+					"words": "Y gruñe, no, rechaza, no",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "83550",
+					"words": "No mueve el rabo con docilidad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "86040",
+					"words": "Ni da la patita, ni hace el muertito",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "89610",
+					"words": "¡Y aúlla este rocanrol!",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "94500",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "110330",
+					"words": "Yo no sé si a tu perro le gusta ladrar a lo bobo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "116260",
+					"words": "Mi perro, no, no quiere, no",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "119950",
+					"words": "Con el hocico afiebrado, no",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "122150",
+					"words": "Recuperando palitos, corriendo a lo bobo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "125900",
+					"words": "¿Por qué, si es su rocanrol?",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "128270",
+					"words": "Y dice: \"¡no, no, no!\", y me desobedece",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "134610",
+					"words": "No, no, no, es lo mejor que hace",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "140390",
+					"words": "Aquí y allá, el muy zorrito la va de \"rififí\"",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "144460",
+					"words": "¡Porque este es su rocanrol! (¡Au!)",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "152680",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				}
+			],
+			"provider": "MusixMatch",
+			"providerLyricsId": "157752752",
+			"providerDisplayName": "Musixmatch",
+			"syncLyricsUri": "",
+			"isDenseTypeface": false,
+			"alternatives": [],
+			"language": "es",
+			"isRtlLanguage": false,
+			"fullscreenAction": "FULLSCREEN_LYRICS",
+			"showUpsell": false,
+			"capStatus": "NONE",
+			"impressionsRemaining": 0
+		},
+		"colors": {
+			"background": -2279397,
+			"text": -16777216,
+			"highlightText": -1
+		},
+		"hasVocalRemoval": false
+	},
+	{
+		"lyrics": {
+			"syncType": "LINE_SYNCED",
+			"lines": [
+				{
+					"startTimeMs": "16490",
+					"words": "Quiero tentar el abismo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "19160",
+					"words": "Y a la muerte estafar",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "23990",
+					"words": "Volvamos a cero",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "25770",
+					"words": "Borrémoslo todo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "27330",
+					"words": "Y festejemos si mañana",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "29520",
+					"words": "Me despierto sobrio y feliz",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "35180",
+					"words": "Por eso, canción, llévame lejos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "38870",
+					"words": "Donde nadie se acuerde de mí",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "42640",
+					"words": "Quiero ser el murmullo de alguna ciudad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "46660",
+					"words": "Que no sepa quién soy",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "51210",
+					"words": "Yo daría hasta mi sueño",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "53970",
+					"words": "Por ver la farsa fallar",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "58780",
+					"words": "Perdamos el centro",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "60660",
+					"words": "Quemémoslo todo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "62250",
+					"words": "Y pediremos que mañana",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "64330",
+					"words": "Nadie venga a hacerme cumplir",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "69750",
+					"words": "Por eso, canción, llévame lejos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "73710",
+					"words": "Donde nadie se acuerde de mí",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "77580",
+					"words": "Quiero ser el murmullo de alguna ciudad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "81540",
+					"words": "Que no sepa quién soy",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "86060",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "101600",
+					"words": "Cambio todo por el don",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "103730",
+					"words": "Que hace a las mujeres reír",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "108990",
+					"words": "El mundo de ellas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "111010",
+					"words": "Me hunde en sus huellas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "112660",
+					"words": "Y roguemos que mañana",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "114750",
+					"words": "Me convierta en otro infeliz",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "120270",
+					"words": "Por eso, canción, llévame lejos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "124130",
+					"words": "Donde nadie se acuerde de mí",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "127950",
+					"words": "Quiero ser el murmullo de alguna ciudad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "131830",
+					"words": "Que no sepa quién soy",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "136430",
+					"words": "Canción, llévame lejos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "139450",
+					"words": "Donde nadie se acuerde de mí",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "143300",
+					"words": "Quiero ser el murmullo de alguna ciudad",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "147310",
+					"words": "Que no sepa quién soy",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "153810",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				}
+			],
+			"provider": "MusixMatch",
+			"providerLyricsId": "163292724",
+			"providerDisplayName": "Musixmatch",
+			"syncLyricsUri": "",
+			"isDenseTypeface": false,
+			"alternatives": [],
+			"language": "es",
+			"isRtlLanguage": false,
+			"fullscreenAction": "FULLSCREEN_LYRICS",
+			"showUpsell": false,
+			"capStatus": "NONE",
+			"impressionsRemaining": 0
+		},
+		"colors": {
+			"background": -9013642,
+			"text": -16777216,
+			"highlightText": -1
+		},
+		"hasVocalRemoval": false
+	},
+	{
+		"lyrics": {
+			"syncType": "LINE_SYNCED",
+			"lines": [
+				{
+					"startTimeMs": "13460",
+					"words": "Te llamé para vernos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "17490",
+					"words": "Se me ocurren tantas cosas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "21080",
+					"words": "Empezar por juntarnos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "23500",
+					"words": "Para no hacer nada",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "27590",
+					"words": "Te propuse mi casa, nada neutro",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "32180",
+					"words": "♪",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "35770",
+					"words": "Te dije: \"trae tus pijamas\"",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "38450",
+					"words": "Que yo no duermo bien de noche",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "45690",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "50290",
+					"words": "Que este no es un cuento que lo inventé yo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "52730",
+					"words": "Por única vez, te pido que entiendas, ah-ah-ah",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "60100",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "65960",
+					"words": "Te llamé para vernos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "69990",
+					"words": "Se me ocurren tantas cosas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "73570",
+					"words": "Empezar por juntarnos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "76290",
+					"words": "Para no hacer nada",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "80440",
+					"words": "Te propuse mi casa, nada neutro",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "87200",
+					"words": "Te dije: \"trae tus pijamas\"",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "90210",
+					"words": "Que yo no duermo bien de noche",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "96240",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "98490",
+					"words": "Por mi cama pasa un río",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "105010",
+					"words": "Y, en el río un rebaño abreva al sol",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "111720",
+					"words": "Y, un pastor inmóvil sentado a tus pies",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "117600",
+					"words": "Me canta, me canta",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "125930",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "129550",
+					"words": "Que este no es un cuento que lo inventé yo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "132400",
+					"words": "Por única vez, te pido que entiendas, ah-ah-ah",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "139420",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "146020",
+					"words": "Corro espantado, alejándome de todos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "148750",
+					"words": "Perdiéndome en la piel de un paria perseguido",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "152320",
+					"words": "Dejaba atrás un circo rico en oropel",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "155760",
+					"words": "Quería contarte y que me seas todo oídos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "159500",
+					"words": "Te llamé para vernos",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "163990",
+					"words": "Se me ocurren tantas cosas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "166750",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "171180",
+					"words": "Que este no es un cuento que lo inventé yo",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "174590",
+					"words": "Por única vez, te pido que entiendas, ah-ah-ah",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "181650",
+					"words": "Por única vez, te pido que entiendas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "187150",
+					"words": "Te llamé (Por única vez) Para vernos (Te pido que entiendas)",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "191740",
+					"words": "Se me ocurren tantas cosas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "194050",
+					"words": "Te llamé (Por única vez) Para vernos (Te pido que entiendas)",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "198750",
+					"words": "Se me ocurren tantas cosas",
+					"syllables": [],
+					"endTimeMs": "0"
+				},
+				{
+					"startTimeMs": "200290",
+					"words": "",
+					"syllables": [],
+					"endTimeMs": "0"
+				}
+			],
+			"provider": "MusixMatch",
+			"providerLyricsId": "3124535",
+			"providerDisplayName": "Musixmatch",
+			"syncLyricsUri": "",
+			"isDenseTypeface": false,
+			"alternatives": [],
+			"language": "es",
+			"isRtlLanguage": false,
+			"fullscreenAction": "FULLSCREEN_LYRICS",
+			"showUpsell": false,
+			"capStatus": "NONE",
+			"impressionsRemaining": 0
+		},
+		"colors": {
+			"background": -9079435,
+			"text": -16777216,
+			"highlightText": -1
+		},
+		"hasVocalRemoval": false
+	}
 ]
