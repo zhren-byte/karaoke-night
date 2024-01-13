@@ -42,8 +42,7 @@ xhttp.onreadystatechange = function () {
 						lyricsDiv.appendChild(
 							createLyricsElement(
 								line,
-								"translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform ease-in-out text-gray-600 " +
-									currentIndex
+								"translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform ease-in-out text-gray-600" // Medio Inicio
 							)
 						);
 					const [minutes, seconds] = timestampMatch[1]

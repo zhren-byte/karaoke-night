@@ -8,32 +8,52 @@
     <title>{{ title }}</title>
 </head>
 
-<body class="bg-gray-900 text-white">
-    <div class="flex flex-col h-screen">
-        <header class="p-6">
-            <h1 class="text-4xl font-bold">{{ title }}</h1>
-        </header>
-        <main class="flex-1 flex flex-col justify-center items-center">
-            <div class="h-2/3 text-center" id="song">
-                <h2 class="text-3xl font-semibold mb-2" id="name">Bohemian Rhapsody</h2>
-                <h3 class="text-xl mb-8" id="author">Queen</h3>
-                <div class="text-lg leading-relaxed h-1/2 relative" id="lyrics">
-                    {{!-- <p class="-translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500 ">Is this the real life? Is this just fantasy?</p>
-                    <p class="-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-2xl">Caught in a landslide, no escape from reality</p>
-                    <p class="translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500">Open your eyes, look up to the skies and see</p> --}}
+<body>
+    <div class="flex h-screen bg-gray-900 text-white">
+        <aside class="w-64 bg-gray-800 p-6 overflow-y-auto">
+            <h2 class="text-2xl font-bold mb-4">Lista de canciones</h2>
+            {{#each artistSongs}}
+                <h3 class="text-xl font-semibold mb-2">{{author}}</h3>
+                <ul>
+                    {{#each songs}}
+                    <li class="mb-2"><a class="text-lg hover:text-blue-500">{{this}}</a></li>
+                    {{/each}}
+                </ul>
+            {{/each}}
+        </aside>
+        <div class="flex flex-col flex-1">
+            <header class="p-6">
+                <h1 class="text-4xl font-bold">{{ title }}</h1>
+            </header>
+            <main class="flex-1 flex flex-col justify-center items-center">
+                <div class="h-2/3 text-center" id="song">
+                    <h2 class="text-3xl font-semibold mb-2" id="name">Bohemian Rhapsody</h2>
+                    <h3 class="text-xl mb-8" id="author">Queen</h3>
+                    <div class="text-lg leading-relaxed h-1/2 relative" id="lyrics">
+                        {{!-- <p
+                            class="-translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500 ">
+                            Is this the real life? Is this just fantasy?</p>
+                        <p
+                            class="-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-2xl">
+                            Caught in a landslide, no escape from reality</p>
+                        <p
+                            class="translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500">
+                            Open your eyes, look up to the skies and see</p> --}}
+                    </div>
                 </div>
-            </div>
-        </main>
-        <footer class="h-16 bg-gray-800">
-            <div class="h-full flex items-center px-6">
-                <div class="w-full h-1 bg-gray-700 rounded-full overflow-hidden">
-                    <div class="h-full bg-blue-500 ease-in transition" style="width: 0%;" id="progressBar"></div>
+            </main>
+            <footer class="h-8 bg-gray-800">
+                <div class="h-full flex items-center px-6">
+                    <div class="w-full h-1 bg-gray-700 rounded-full overflow-hidden">
+                        <div class="h-full bg-blue-500 ease-in transition" style="width: 0%;" id="progressBar"></div>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
     <script src="./js/obtain-song.js"></script>
-    {{!-- <script src="./js/moveLyrics.js"></script> --}}
+    {{!--
+    <script src="./js/moveLyrics.js"></script> --}}
 </body>
 
 </html>
