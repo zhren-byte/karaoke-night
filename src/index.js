@@ -3,13 +3,20 @@ const path = require("node:path");
 const express = require("express");
 const axios = require("axios");
 const app = express();
+const qs = require('qs');
 const dotenv = require("dotenv");
 const fetch = require("isomorphic-unfetch");
 const { getData, getPreview, getTracks, getDetails } =
 	require("spotify-url-info")(fetch);
 dotenv.config();
 const port = process.env.PORT || 3000;
-
+const client_id = process.env.CLIENT_ID; // Your client id
+const client_secret = process.env.CLIENT_SECRET; // Your secret
+const auth_token = Buffer.from(
+	`${client_id}:${client_secret}`,
+	"utf-8"
+).toString("base64");
+let access_token;
 app.use(express.json());
 app.use("/styles", express.static("public/styles"));
 app.use("/js", express.static("public/js"));
@@ -47,38 +54,50 @@ app.get("/obtain-song", function (req, res) {
 	res.json(song);
 });
 
-app.get("/spotify-search", function (req, res) {
+app.get('/refresh_token', async function(req, res) {
+	try {
+		//make post request to SPOTIFY API for access token, sending relavent info
+		const token_url = "https://accounts.spotify.com/api/token";
+		const data = qs.stringify({ grant_type: "client_credentials" });
+
+		const response = await axios.post(token_url, data, {
+			headers: {
+				Authorization: `Basic ${auth_token}`,
+				"Content-Type": "application/x-www-form-urlencoded",
+			},
+		});
+		//return access token
+		access_token = response.data.access_token
+		console.log(access_token)
+		return res.send("done");
+	} catch (error) {
+		console.log(error);
+	}
+});
+app.get("/spotify-search", async function (req, res) {
 	const search = req.query.search;
+	console.log(await access_token)
 	if (search)
 		return axios
 			.get(
 				`https://api-partner.spotify.com/pathfinder/v1/query?operationName=searchTracks&variables=%7B%22searchTerm%22%3A%22${search}%22%2C%22offset%22%3A0%2C%22limit%22%3A4%2C%22numberOfTopResults%22%3A3%2C%22includeAudiobooks%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2216c02d6304f5f721fc2eb39dacf2361a4543815112506a9c05c9e0bc9733a679%22%7D%7D`,
 				{
 					headers: {
-						Accept: "application/json",
-						"Accept-Language": "es-419",
-						"App-Platform": "WebPlayer",
-						Authorization: `Bearer ${process.env.Authorization}`,
-						"Client-Token": process.env.ClientToken,
-						Referer: "https://open.spotify.com/",
-						"Sec-Ch-Ua":
-							'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-						"Sec-Ch-Ua-Mobile": "?0",
-						"Sec-Ch-Ua-Platform": "Windows",
-						"Spotify-App-Version": "1.2.30.104.ge8490e8d",
-						"User-Agent":
-							"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+						Authorization: `Bearer ${access_token}`,
 					},
 				}
 			)
 			.then((response) => {
 				// console.log(response.data.data.searchV2.tracksV2.items)
-				const songList = response.data.data.searchV2.tracksV2.items.map((line) => ({
-					name: line.item.data.name,
-					author: line.item.data.artists.items[0].profile.name,
-					image: line.item.data.albumOfTrack.coverArt.sources[0].url,
-					track: line.item.data.id,
-				}));
+				const songList = response.data.data.searchV2.tracksV2.items.map(
+					(line) => ({
+						name: line.item.data.name,
+						author: line.item.data.artists.items[0].profile.name,
+						image: line.item.data.albumOfTrack.coverArt.sources[0]
+							.url,
+						track: line.item.data.id,
+					})
+				);
 				res.json(songList);
 			})
 			.catch((err) => {
@@ -156,26 +175,15 @@ app.get("/spotify-song", function (req, res) {
 				`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
 				{
 					headers: {
-						Accept: "application/json",
-						"Accept-Language": "es-419",
 						"App-Platform": "WebPlayer",
 						Authorization: `Bearer ${process.env.Authorization}`,
-						"Client-Token": process.env.ClientToken,
-						Referer: "https://open.spotify.com/",
-						"Sec-Ch-Ua":
-							'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-						"Sec-Ch-Ua-Mobile": "?0",
-						"Sec-Ch-Ua-Platform": "Windows",
-						"Spotify-App-Version": "1.2.30.104.ge8490e8d",
-						"User-Agent":
-							"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 					},
 				}
 			)
 			.then((response) => {
 				const lyrics = response.data.lyrics.lines.map((line) => ({
-						ms: line.startTimeMs,
-						words: line.words
+					ms: line.startTimeMs,
+					words: line.words,
 				}));
 				getPreview(
 					`https://open.spotify.com/intl-es/track/${track}`
@@ -186,11 +194,11 @@ app.get("/spotify-song", function (req, res) {
 						image: data.image,
 						lyrics,
 					};
-					songsInfo.push(song);
-					fs.writeFileSync(
-						songsPath,
-						JSON.stringify(songsInfo, null, 2)
-					);
+					// songsInfo.push(song);
+					// fs.writeFileSync(
+					// 	songsPath,
+					// 	JSON.stringify(songsInfo, null, 2)
+					// );
 					res.send(song);
 				});
 			})
@@ -205,19 +213,8 @@ app.get("/spotify-to-lrc", function (req, res) {
 				`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
 				{
 					headers: {
-						Accept: "application/json",
-						"Accept-Language": "es-419",
 						"App-Platform": "WebPlayer",
 						Authorization: `Bearer ${process.env.Authorization}`,
-						"Client-Token": process.env.ClientToken,
-						Referer: "https://open.spotify.com/",
-						"Sec-Ch-Ua":
-							'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-						"Sec-Ch-Ua-Mobile": "?0",
-						"Sec-Ch-Ua-Platform": "Windows",
-						"Spotify-App-Version": "1.2.30.104.ge8490e8d",
-						"User-Agent":
-							"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 					},
 				}
 			)
@@ -265,28 +262,28 @@ app.post("/add-song", function (req, res) {
 });
 
 app.get("/lrc-to-ms", function (req, res) {
-	const newSong = []
-	songsInfo.map(e => {
-		const lyrics = []
-		e.lyrics.forEach(line => {
+	const newSong = [];
+	songsInfo.map((e) => {
+		const lyrics = [];
+		e.lyrics.forEach((line) => {
 			const timestampMatch = /\[(\d+:\d+\.\d+)\]/.exec(line);
 			const [minutes, seconds] = timestampMatch[1]
-			.split(":")
-			.map(parseFloat);
+				.split(":")
+				.map(parseFloat);
 			const currentTime = ((minutes * 60 + seconds) * 1000).toFixed(0);
 			lyrics.push({
-					ms: currentTime,
-					words: line.replace(timestampMatch[0], "")
-			})
+				ms: currentTime,
+				words: line.replace(timestampMatch[0], ""),
+			});
 		});
 		newSong.push({
 			name: e.name,
 			author: e.author,
 			image: e.image ? e.image : "",
-			lyrics
-		})
-	})
-	res.json(newSong)
+			lyrics,
+		});
+	});
+	res.json(newSong);
 	fs.writeFileSync(songsPath, JSON.stringify(newSong, null, 2));
 	// songsInfo.push({
 	// 	name: req.body.songTitle,
