@@ -2,341 +2,1276 @@
   {
     "name": "Bohemian Rhapsody",
     "author": "Queen",
+    "image": "",
     "lyrics": [
-      "[00:00.21]Is this the real life? Is this just fantasy?",
-      "[00:06.60]Caught in a landslide, no escape from reality",
-      "[00:14.36]Open your eyes, look up to the skies and see",
-      "[00:24.10]I'm just a poor boy, I need no sympathy",
-      "[00:30.01]Because I'm easy come, easy go, little high, little low",
-      "[00:37.51]Any way the wind blows doesn't really matter to me, to me",
-      "[00:53.90]Mama, just killed a man",
-      "[01:00.15]Put a gun against his head",
-      "[01:03.41]Pulled my trigger, now he's dead",
-      "[01:07.40]Mama, life had just begun",
-      "[01:13.90]But now I've gone and thrown it all away",
-      "[01:20.90]Mama, ooh, didn't mean to make you cry",
-      "[01:30.91]If I'm not back again this time tomorrow",
-      "[01:35.41]Carry on, carry on as if nothing really matters",
-      "[01:52.65]Too late, my time has come",
-      "[01:58.90]Sends shivers down my spine, body's aching all the time",
-      "[02:05.90]Goodbye, everybody, I've got to go",
-      "[02:12.65]Gotta leave you all behind and face the truth",
-      "[02:19.40]Mama, ooh, I don't want to die",
-      "[02:29.40]I sometimes wish I'd never been born at all",
-      "[03:03.41]I see a little silhouetto of a man",
-      "[03:05.90]Scaramouche, Scaramouche, will you do the Fandango",
-      "[03:09.65]Thunderbolt and lightning, very, very fright'ning me",
-      "[03:12.90](Galileo) Galileo, (Galileo) Galileo, Galileo figaro magnifico",
-      "[03:20.30](I'm just a poor boy, nobody loves me)",
-      "[03:23.19]He's just a poor boy from a poor family",
-      "[03:26.20]Spare him his life from this monstrosity",
-      "[03:31.11]Easy come, easy go, will you let me go?",
-      "[03:33.86]Bismillah! No, we will not let you go",
-      "[03:37.02](Let him go) Bismillah! We will not let you go",
-      "[03:39.77](Let him go) Bismillah! We will not let you go",
-      "[03:43.02](Let me go) Will not let you go",
-      "[03:44.77](Let me go) Will not let you go",
-      "[03:46.28](Let me go) Ah, no, no, no, no, no, no, no",
-      "[03:51.27](Oh mamma mia, mamma mia) Mama mia, let me go",
-      "[03:54.27]Beelzebub has a devil put aside for me, for me, for me",
-      "[04:11.26]So you think you can stone me and spit in my eye?",
-      "[04:17.42]So you think you can love me and leave me to die?",
-      "[04:22.41]Oh, baby, can't do this to me, baby!",
-      "[04:29.17]Just gotta get out, just gotta get right outta here!",
-      "[05:07.41]Nothing really matters, anyone can see",
-      "[05:14.42]Nothing really matters",
-      "[05:19.17]Nothing really matters to me",
-      "[05:40.92]Any way the wind blows"
+      {
+        "ms": "210",
+        "words": "Is this the real life? Is this just fantasy?"
+      },
+      {
+        "ms": "6600",
+        "words": "Caught in a landslide, no escape from reality"
+      },
+      {
+        "ms": "14360",
+        "words": "Open your eyes, look up to the skies and see"
+      },
+      {
+        "ms": "24100",
+        "words": "I'm just a poor boy, I need no sympathy"
+      },
+      {
+        "ms": "30010",
+        "words": "Because I'm easy come, easy go, little high, little low"
+      },
+      {
+        "ms": "37510",
+        "words": "Any way the wind blows doesn't really matter to me, to me"
+      },
+      {
+        "ms": "53900",
+        "words": "Mama, just killed a man"
+      },
+      {
+        "ms": "60150",
+        "words": "Put a gun against his head"
+      },
+      {
+        "ms": "63410",
+        "words": "Pulled my trigger, now he's dead"
+      },
+      {
+        "ms": "67400",
+        "words": "Mama, life had just begun"
+      },
+      {
+        "ms": "73900",
+        "words": "But now I've gone and thrown it all away"
+      },
+      {
+        "ms": "80900",
+        "words": "Mama, ooh, didn't mean to make you cry"
+      },
+      {
+        "ms": "90910",
+        "words": "If I'm not back again this time tomorrow"
+      },
+      {
+        "ms": "95410",
+        "words": "Carry on, carry on as if nothing really matters"
+      },
+      {
+        "ms": "112650",
+        "words": "Too late, my time has come"
+      },
+      {
+        "ms": "118900",
+        "words": "Sends shivers down my spine, body's aching all the time"
+      },
+      {
+        "ms": "125900",
+        "words": "Goodbye, everybody, I've got to go"
+      },
+      {
+        "ms": "132650",
+        "words": "Gotta leave you all behind and face the truth"
+      },
+      {
+        "ms": "139400",
+        "words": "Mama, ooh, I don't want to die"
+      },
+      {
+        "ms": "149400",
+        "words": "I sometimes wish I'd never been born at all"
+      },
+      {
+        "ms": "183410",
+        "words": "I see a little silhouetto of a man"
+      },
+      {
+        "ms": "185900",
+        "words": "Scaramouche, Scaramouche, will you do the Fandango"
+      },
+      {
+        "ms": "189650",
+        "words": "Thunderbolt and lightning, very, very fright'ning me"
+      },
+      {
+        "ms": "192900",
+        "words": "(Galileo) Galileo, (Galileo) Galileo, Galileo figaro magnifico"
+      },
+      {
+        "ms": "200300",
+        "words": "(I'm just a poor boy, nobody loves me)"
+      },
+      {
+        "ms": "203190",
+        "words": "He's just a poor boy from a poor family"
+      },
+      {
+        "ms": "206200",
+        "words": "Spare him his life from this monstrosity"
+      },
+      {
+        "ms": "211110",
+        "words": "Easy come, easy go, will you let me go?"
+      },
+      {
+        "ms": "213860",
+        "words": "Bismillah! No, we will not let you go"
+      },
+      {
+        "ms": "217020",
+        "words": "(Let him go) Bismillah! We will not let you go"
+      },
+      {
+        "ms": "219770",
+        "words": "(Let him go) Bismillah! We will not let you go"
+      },
+      {
+        "ms": "223020",
+        "words": "(Let me go) Will not let you go"
+      },
+      {
+        "ms": "224770",
+        "words": "(Let me go) Will not let you go"
+      },
+      {
+        "ms": "226280",
+        "words": "(Let me go) Ah, no, no, no, no, no, no, no"
+      },
+      {
+        "ms": "231270",
+        "words": "(Oh mamma mia, mamma mia) Mama mia, let me go"
+      },
+      {
+        "ms": "234270",
+        "words": "Beelzebub has a devil put aside for me, for me, for me"
+      },
+      {
+        "ms": "251260",
+        "words": "So you think you can stone me and spit in my eye?"
+      },
+      {
+        "ms": "257420",
+        "words": "So you think you can love me and leave me to die?"
+      },
+      {
+        "ms": "262410",
+        "words": "Oh, baby, can't do this to me, baby!"
+      },
+      {
+        "ms": "269170",
+        "words": "Just gotta get out, just gotta get right outta here!"
+      },
+      {
+        "ms": "307410",
+        "words": "Nothing really matters, anyone can see"
+      },
+      {
+        "ms": "314420",
+        "words": "Nothing really matters"
+      },
+      {
+        "ms": "319170",
+        "words": "Nothing really matters to me"
+      },
+      {
+        "ms": "340920",
+        "words": "Any way the wind blows"
+      }
     ]
   },
   {
     "name": "Shake It Off",
     "author": "Taylor Swift",
+    "image": "",
     "lyrics": [
-      "[00:04.90]I stay out too late",
-      "[00:07.64]Got nothing in my brain",
-      "[00:10.90]That's what people say, mmm-mmm",
-      "[00:13.89]That's what people say, mmm-mmm",
-      "[00:16.65]I go on too many dates",
-      "[00:19.64]But I can't make them stay",
-      "[00:22.39]At least that's what people say, mmm-mmm",
-      "[00:25.89]That's what people say, mmm-mmm",
-      "[00:28.39]But I keep cruising",
-      "[00:31.14]Can't stop, won't stop moving",
-      "[00:33.89]It's like I got this music",
-      "[00:37.15]In my mind",
-      "[00:38.39]Saying, \"It's gonna be alright.\"",
-      "[00:41.39]'Cause the players gonna play, play, play, play, play",
-      "[00:44.39]And the haters gonna hate, hate, hate, hate, hate",
-      "[00:47.64]Baby, I'm just gonna shake, shake, shake, shake, shake",
-      "[00:50.40]I shake it off, I shake it off",
-      "[00:53.65]Heart-breakers gonna break, break, break, break, break",
-      "[00:56.39]And the fakers gonna fake, fake, fake, fake, fake",
-      "[00:59.39]Baby, I'm just gonna shake, shake, shake, shake, shake",
-      "[01:02.64]I shake it off, I shake it off",
-      "[01:04.39]I never miss a beat",
-      "[01:07.64]I'm lightning on my feet",
-      "[01:10.64]And that's what they don't see, mmm-mmm",
-      "[01:13.90]That's what they don't see, mmm-mmm",
-      "[01:16.64]I'm dancing on my own",
-      "[01:19.40]I make the moves up as I go",
-      "[01:22.64]And that's what they don't know, mmm-mmm",
-      "[01:25.90]That's what they don't know, mmm-mmm",
-      "[01:28.39]But I keep cruising",
-      "[01:30.89]Can't stop, won't stop grooving",
-      "[01:33.89]It's like I got this music",
-      "[01:37.15]In my mind",
-      "[01:38.40]Saying, \"It's gonna be alright.\"",
-      "[01:41.39]'Cause the players gonna play, play, play, play, play",
-      "[01:44.39]And the haters gonna hate, hate, hate, hate, hate",
-      "[01:47.39]Baby, I'm just gonna shake, shake, shake, shake, shake",
-      "[01:50.40]I shake it off, I shake it off",
-      "[01:53.64]Heart-breakers gonna break, break, break, break, break",
-      "[01:56.14]And the fakers gonna fake, fake, fake, fake, fake",
-      "[01:59.14]Baby, I'm just gonna shake, shake, shake, shake, shake",
-      "[02:02.40]I shake it off, I shake it off",
-      "[02:05.64]Shake it off, I shake it off,",
-      "[02:08.15]I, I, I shake it off, I shake it off,",
-      "[02:10.65]I, I, I shake it off, I shake it off,",
-      "[02:13.64]I, I, I shake it off, I shake it off",
-      "[02:18.39]Hey, hey, hey",
-      "[02:19.89]Just think while you've been getting down and out about the liars and the dirty, dirty cheats of the world,",
-      "[02:24.89]You could've been getting down to this sick beat.",
-      "[02:29.64]My ex-man brought his new girlfriend",
-      "[02:32.14]She's like \"Oh, my god!\" but I'm just gonna shake.",
-      "[02:35.15]And to the fella over there with the hella good hair",
-      "[02:38.14]Won't you come on over, baby? We can shake, shake, shake",
-      "[02:43.14]Yeah ohhh",
-      "[02:43.39]'Cause the players gonna play, play, play, play, play",
-      "[02:47.14]And the haters gonna hate, hate, hate, hate, hate",
-      "[02:50.39]I'm just gonna shake, shake, shake, shake, shake",
-      "[02:53.40]I shake it off, I shake it off",
-      "[02:56.64]Heart-breakers gonna break, break, break, break, break",
-      "[02:59.39]And the fakers gonna fake, fake, fake, fake, fake",
-      "[03:02.39]Baby, I'm just gonna shake, shake, shake, shake, shake",
-      "[03:05.40]I shake it off, I shake it off",
-      "[03:08.64]Shake it off, I shake it off,",
-      "[03:10.64]I, I, I shake it off, I shake it off,",
-      "[03:13.64]I, I, I shake it off, I shake it off",
-      "[03:16.65]I, I, I shake it off, I shake it off",
-      "[03:20.64]Shake it off, I shake it off,",
-      "[03:22.65]I, I, I shake it off, I shake it off,",
-      "[03:25.65]I, I, I shake it off, I shake it off,",
-      "[03:28.90]I, I, I shake it off, I shake it off",
-      "[03:32.89]Shake it off, I shake it off,",
-      "[03:34.89]I, I, I shake it off, I shake it off,",
-      "[03:38.65]I, I, I shake it off, I shake it off,",
-      "[03:41.14]I, I, I shake it off, I shake it off"
+      {
+        "ms": "4900",
+        "words": "I stay out too late"
+      },
+      {
+        "ms": "7640",
+        "words": "Got nothing in my brain"
+      },
+      {
+        "ms": "10900",
+        "words": "That's what people say, mmm-mmm"
+      },
+      {
+        "ms": "13890",
+        "words": "That's what people say, mmm-mmm"
+      },
+      {
+        "ms": "16650",
+        "words": "I go on too many dates"
+      },
+      {
+        "ms": "19640",
+        "words": "But I can't make them stay"
+      },
+      {
+        "ms": "22390",
+        "words": "At least that's what people say, mmm-mmm"
+      },
+      {
+        "ms": "25890",
+        "words": "That's what people say, mmm-mmm"
+      },
+      {
+        "ms": "28390",
+        "words": "But I keep cruising"
+      },
+      {
+        "ms": "31140",
+        "words": "Can't stop, won't stop moving"
+      },
+      {
+        "ms": "33890",
+        "words": "It's like I got this music"
+      },
+      {
+        "ms": "37150",
+        "words": "In my mind"
+      },
+      {
+        "ms": "38390",
+        "words": "Saying, \"It's gonna be alright.\""
+      },
+      {
+        "ms": "41390",
+        "words": "'Cause the players gonna play, play, play, play, play"
+      },
+      {
+        "ms": "44390",
+        "words": "And the haters gonna hate, hate, hate, hate, hate"
+      },
+      {
+        "ms": "47640",
+        "words": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "50400",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "53650",
+        "words": "Heart-breakers gonna break, break, break, break, break"
+      },
+      {
+        "ms": "56390",
+        "words": "And the fakers gonna fake, fake, fake, fake, fake"
+      },
+      {
+        "ms": "59390",
+        "words": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "62640",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "64390",
+        "words": "I never miss a beat"
+      },
+      {
+        "ms": "67640",
+        "words": "I'm lightning on my feet"
+      },
+      {
+        "ms": "70640",
+        "words": "And that's what they don't see, mmm-mmm"
+      },
+      {
+        "ms": "73900",
+        "words": "That's what they don't see, mmm-mmm"
+      },
+      {
+        "ms": "76640",
+        "words": "I'm dancing on my own"
+      },
+      {
+        "ms": "79400",
+        "words": "I make the moves up as I go"
+      },
+      {
+        "ms": "82640",
+        "words": "And that's what they don't know, mmm-mmm"
+      },
+      {
+        "ms": "85900",
+        "words": "That's what they don't know, mmm-mmm"
+      },
+      {
+        "ms": "88390",
+        "words": "But I keep cruising"
+      },
+      {
+        "ms": "90890",
+        "words": "Can't stop, won't stop grooving"
+      },
+      {
+        "ms": "93890",
+        "words": "It's like I got this music"
+      },
+      {
+        "ms": "97150",
+        "words": "In my mind"
+      },
+      {
+        "ms": "98400",
+        "words": "Saying, \"It's gonna be alright.\""
+      },
+      {
+        "ms": "101390",
+        "words": "'Cause the players gonna play, play, play, play, play"
+      },
+      {
+        "ms": "104390",
+        "words": "And the haters gonna hate, hate, hate, hate, hate"
+      },
+      {
+        "ms": "107390",
+        "words": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "110400",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "113640",
+        "words": "Heart-breakers gonna break, break, break, break, break"
+      },
+      {
+        "ms": "116140",
+        "words": "And the fakers gonna fake, fake, fake, fake, fake"
+      },
+      {
+        "ms": "119140",
+        "words": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "122400",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "125640",
+        "words": "Shake it off, I shake it off,"
+      },
+      {
+        "ms": "128150",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "130650",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "133640",
+        "words": "I, I, I shake it off, I shake it off"
+      },
+      {
+        "ms": "138390",
+        "words": "Hey, hey, hey"
+      },
+      {
+        "ms": "139890",
+        "words": "Just think while you've been getting down and out about the liars and the dirty, dirty cheats of the world,"
+      },
+      {
+        "ms": "144890",
+        "words": "You could've been getting down to this sick beat."
+      },
+      {
+        "ms": "149640",
+        "words": "My ex-man brought his new girlfriend"
+      },
+      {
+        "ms": "152140",
+        "words": "She's like \"Oh, my god!\" but I'm just gonna shake."
+      },
+      {
+        "ms": "155150",
+        "words": "And to the fella over there with the hella good hair"
+      },
+      {
+        "ms": "158140",
+        "words": "Won't you come on over, baby? We can shake, shake, shake"
+      },
+      {
+        "ms": "163140",
+        "words": "Yeah ohhh"
+      },
+      {
+        "ms": "163390",
+        "words": "'Cause the players gonna play, play, play, play, play"
+      },
+      {
+        "ms": "167140",
+        "words": "And the haters gonna hate, hate, hate, hate, hate"
+      },
+      {
+        "ms": "170390",
+        "words": "I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "173400",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "176640",
+        "words": "Heart-breakers gonna break, break, break, break, break"
+      },
+      {
+        "ms": "179390",
+        "words": "And the fakers gonna fake, fake, fake, fake, fake"
+      },
+      {
+        "ms": "182390",
+        "words": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+      },
+      {
+        "ms": "185400",
+        "words": "I shake it off, I shake it off"
+      },
+      {
+        "ms": "188640",
+        "words": "Shake it off, I shake it off,"
+      },
+      {
+        "ms": "190640",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "193640",
+        "words": "I, I, I shake it off, I shake it off"
+      },
+      {
+        "ms": "196650",
+        "words": "I, I, I shake it off, I shake it off"
+      },
+      {
+        "ms": "200640",
+        "words": "Shake it off, I shake it off,"
+      },
+      {
+        "ms": "202650",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "205650",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "208900",
+        "words": "I, I, I shake it off, I shake it off"
+      },
+      {
+        "ms": "212890",
+        "words": "Shake it off, I shake it off,"
+      },
+      {
+        "ms": "214890",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "218650",
+        "words": "I, I, I shake it off, I shake it off,"
+      },
+      {
+        "ms": "221140",
+        "words": "I, I, I shake it off, I shake it off"
+      }
     ]
   },
   {
     "name": "Blank Space",
     "author": "Taylor Swift",
+    "image": "",
     "lyrics": [
-      "[00:08.32]Nice to meet you, where you been?",
-      "[00:10.82]I could show you incredible things",
-      "[00:13.34]Magic, madness, heaven, sin",
-      "[00:16.08]Saw you there and I thought",
-      "[00:17.82]\"Oh, my God, look at that face",
-      "[00:20.09]You look like my next mistake",
-      "[00:22.57]Love's a game, wanna play?\" Ay",
-      "[00:28.32]New money, suit and tie",
-      "[00:30.83]I can read you like a magazine",
-      "[00:33.32]Ain't it funny rumors fly",
-      "[00:35.81]And I know you heard about me",
-      "[00:38.16]So hey, let's be friends",
-      "[00:40.29]I'm dying to see how this one ends",
-      "[00:42.53]Grab your passport and my hand",
-      "[00:45.03]I can make the bad guys good for a weekend",
-      "[00:48.02]So it's gonna be forever",
-      "[00:50.53]Or it's gonna go down in flames",
-      "[00:53.02]You can tell me when it's over, mmh",
-      "[00:55.51]If the high was worth the pain",
-      "[00:58.03]Got a long list of ex-lovers",
-      "[01:00.27]They'll tell you I'm insane",
-      "[01:03.05]'Cause you know I love the players",
-      "[01:05.28]And you love the game",
-      "[01:07.81]'Cause we're young and we're reckless",
-      "[01:10.34]We'll take this way too far",
-      "[01:12.85]It'll leave you breathless",
-      "[01:15.60]Or with a nasty scar",
-      "[01:17.85]Got a long list of ex-lovers",
-      "[01:20.33]They'll tell you I'm insane",
-      "[01:23.11]But I've got a blank space, baby",
-      "[01:26.64]And I'll write your name",
-      "[01:33.49]Cherry lips, crystal skies",
-      "[01:35.81]I could show you incredible things",
-      "[01:38.32]Stolen kisses, pretty lies",
-      "[01:40.84]You're the King, baby, I'm your Queen",
-      "[01:43.07]Find out what you want",
-      "[01:45.16]Be that girl for a month",
-      "[01:47.67]Wait, the worst is yet to come, oh, no",
-      "[01:53.40]Screaming, crying, perfect storms",
-      "[01:55.95]I can make all the tables turn",
-      "[01:58.44]Rose garden filled with thorns",
-      "[02:00.95]Keep you second guessing like",
-      "[02:02.72]\"Oh, my God, who is she?\"",
-      "[02:05.20]I get drunk on jealousy",
-      "[02:07.71]But you'll come back each time you leave",
-      "[02:10.45]'Cause, darling, I'm a nightmare dressed like a daydream",
-      "[02:12.96]So it's gonna be forever",
-      "[02:15.44]Or it's gonna go down in flames",
-      "[02:17.94]You can tell me when it's over, mmh",
-      "[02:20.46]If the high was worth the pain",
-      "[02:22.95]Got a long list of ex-lovers",
-      "[02:25.48]They'll tell you I'm insane",
-      "[02:27.99]'Cause you know I love the players",
-      "[02:30.47]And you love the game",
-      "[02:32.96]'Cause we're young and we're reckless (oh)",
-      "[02:35.70]We'll take this way too far",
-      "[02:37.95]It'll leave you breathless (oh)",
-      "[02:40.73]Or with a nasty scar",
-      "[02:42.95]Got a long list of ex-lovers",
-      "[02:45.45]They'll tell you I'm insane (insane)",
-      "[02:47.95]But I've got a blank space, baby",
-      "[02:50.97]And I'll write your name",
-      "[02:53.44]Boys only want love if it's torture",
-      "[02:57.76]Don't say I didn't say, I didn't warn ya",
-      "[03:03.27]Boys only want love if it's torture",
-      "[03:08.00]Don't say I didn't say, I didn't warn ya",
-      "[03:13.01]So it's gonna be forever",
-      "[03:15.76]Or it's gonna go down in flames",
-      "[03:18.01]You can tell me when it's over (over)",
-      "[03:20.75]If the high was worth the pain",
-      "[03:23.02]Got a long list of ex-lovers",
-      "[03:25.74]They'll tell you I'm insane (I'm insane)",
-      "[03:28.09]'Cause you know I love the players",
-      "[03:30.36]And you love the game",
-      "[03:32.84]'Cause we're young and we're reckless",
-      "[03:35.41]We'll take this way too far (ooh)",
-      "[03:37.91]It'll leave you breathless, mmh",
-      "[03:40.68]Or with a nasty scar (leave a nasty scar)",
-      "[03:43.19]Got a long list of ex-lovers",
-      "[03:45.44]They'll tell you I'm insane",
-      "[03:48.18]But I've got a blank space, baby",
-      "[03:51.70]And I'll write your name"
+      {
+        "ms": "8320",
+        "words": "Nice to meet you, where you been?"
+      },
+      {
+        "ms": "10820",
+        "words": "I could show you incredible things"
+      },
+      {
+        "ms": "13340",
+        "words": "Magic, madness, heaven, sin"
+      },
+      {
+        "ms": "16080",
+        "words": "Saw you there and I thought"
+      },
+      {
+        "ms": "17820",
+        "words": "\"Oh, my God, look at that face"
+      },
+      {
+        "ms": "20090",
+        "words": "You look like my next mistake"
+      },
+      {
+        "ms": "22570",
+        "words": "Love's a game, wanna play?\" Ay"
+      },
+      {
+        "ms": "28320",
+        "words": "New money, suit and tie"
+      },
+      {
+        "ms": "30830",
+        "words": "I can read you like a magazine"
+      },
+      {
+        "ms": "33320",
+        "words": "Ain't it funny rumors fly"
+      },
+      {
+        "ms": "35810",
+        "words": "And I know you heard about me"
+      },
+      {
+        "ms": "38160",
+        "words": "So hey, let's be friends"
+      },
+      {
+        "ms": "40290",
+        "words": "I'm dying to see how this one ends"
+      },
+      {
+        "ms": "42530",
+        "words": "Grab your passport and my hand"
+      },
+      {
+        "ms": "45030",
+        "words": "I can make the bad guys good for a weekend"
+      },
+      {
+        "ms": "48020",
+        "words": "So it's gonna be forever"
+      },
+      {
+        "ms": "50530",
+        "words": "Or it's gonna go down in flames"
+      },
+      {
+        "ms": "53020",
+        "words": "You can tell me when it's over, mmh"
+      },
+      {
+        "ms": "55510",
+        "words": "If the high was worth the pain"
+      },
+      {
+        "ms": "58030",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "60270",
+        "words": "They'll tell you I'm insane"
+      },
+      {
+        "ms": "63050",
+        "words": "'Cause you know I love the players"
+      },
+      {
+        "ms": "65280",
+        "words": "And you love the game"
+      },
+      {
+        "ms": "67810",
+        "words": "'Cause we're young and we're reckless"
+      },
+      {
+        "ms": "70340",
+        "words": "We'll take this way too far"
+      },
+      {
+        "ms": "72850",
+        "words": "It'll leave you breathless"
+      },
+      {
+        "ms": "75600",
+        "words": "Or with a nasty scar"
+      },
+      {
+        "ms": "77850",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "80330",
+        "words": "They'll tell you I'm insane"
+      },
+      {
+        "ms": "83110",
+        "words": "But I've got a blank space, baby"
+      },
+      {
+        "ms": "86640",
+        "words": "And I'll write your name"
+      },
+      {
+        "ms": "93490",
+        "words": "Cherry lips, crystal skies"
+      },
+      {
+        "ms": "95810",
+        "words": "I could show you incredible things"
+      },
+      {
+        "ms": "98320",
+        "words": "Stolen kisses, pretty lies"
+      },
+      {
+        "ms": "100840",
+        "words": "You're the King, baby, I'm your Queen"
+      },
+      {
+        "ms": "103070",
+        "words": "Find out what you want"
+      },
+      {
+        "ms": "105160",
+        "words": "Be that girl for a month"
+      },
+      {
+        "ms": "107670",
+        "words": "Wait, the worst is yet to come, oh, no"
+      },
+      {
+        "ms": "113400",
+        "words": "Screaming, crying, perfect storms"
+      },
+      {
+        "ms": "115950",
+        "words": "I can make all the tables turn"
+      },
+      {
+        "ms": "118440",
+        "words": "Rose garden filled with thorns"
+      },
+      {
+        "ms": "120950",
+        "words": "Keep you second guessing like"
+      },
+      {
+        "ms": "122720",
+        "words": "\"Oh, my God, who is she?\""
+      },
+      {
+        "ms": "125200",
+        "words": "I get drunk on jealousy"
+      },
+      {
+        "ms": "127710",
+        "words": "But you'll come back each time you leave"
+      },
+      {
+        "ms": "130450",
+        "words": "'Cause, darling, I'm a nightmare dressed like a daydream"
+      },
+      {
+        "ms": "132960",
+        "words": "So it's gonna be forever"
+      },
+      {
+        "ms": "135440",
+        "words": "Or it's gonna go down in flames"
+      },
+      {
+        "ms": "137940",
+        "words": "You can tell me when it's over, mmh"
+      },
+      {
+        "ms": "140460",
+        "words": "If the high was worth the pain"
+      },
+      {
+        "ms": "142950",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "145480",
+        "words": "They'll tell you I'm insane"
+      },
+      {
+        "ms": "147990",
+        "words": "'Cause you know I love the players"
+      },
+      {
+        "ms": "150470",
+        "words": "And you love the game"
+      },
+      {
+        "ms": "152960",
+        "words": "'Cause we're young and we're reckless (oh)"
+      },
+      {
+        "ms": "155700",
+        "words": "We'll take this way too far"
+      },
+      {
+        "ms": "157950",
+        "words": "It'll leave you breathless (oh)"
+      },
+      {
+        "ms": "160730",
+        "words": "Or with a nasty scar"
+      },
+      {
+        "ms": "162950",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "165450",
+        "words": "They'll tell you I'm insane (insane)"
+      },
+      {
+        "ms": "167950",
+        "words": "But I've got a blank space, baby"
+      },
+      {
+        "ms": "170970",
+        "words": "And I'll write your name"
+      },
+      {
+        "ms": "173440",
+        "words": "Boys only want love if it's torture"
+      },
+      {
+        "ms": "177760",
+        "words": "Don't say I didn't say, I didn't warn ya"
+      },
+      {
+        "ms": "183270",
+        "words": "Boys only want love if it's torture"
+      },
+      {
+        "ms": "188000",
+        "words": "Don't say I didn't say, I didn't warn ya"
+      },
+      {
+        "ms": "193010",
+        "words": "So it's gonna be forever"
+      },
+      {
+        "ms": "195760",
+        "words": "Or it's gonna go down in flames"
+      },
+      {
+        "ms": "198010",
+        "words": "You can tell me when it's over (over)"
+      },
+      {
+        "ms": "200750",
+        "words": "If the high was worth the pain"
+      },
+      {
+        "ms": "203020",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "205740",
+        "words": "They'll tell you I'm insane (I'm insane)"
+      },
+      {
+        "ms": "208090",
+        "words": "'Cause you know I love the players"
+      },
+      {
+        "ms": "210360",
+        "words": "And you love the game"
+      },
+      {
+        "ms": "212840",
+        "words": "'Cause we're young and we're reckless"
+      },
+      {
+        "ms": "215410",
+        "words": "We'll take this way too far (ooh)"
+      },
+      {
+        "ms": "217910",
+        "words": "It'll leave you breathless, mmh"
+      },
+      {
+        "ms": "220680",
+        "words": "Or with a nasty scar (leave a nasty scar)"
+      },
+      {
+        "ms": "223190",
+        "words": "Got a long list of ex-lovers"
+      },
+      {
+        "ms": "225440",
+        "words": "They'll tell you I'm insane"
+      },
+      {
+        "ms": "228180",
+        "words": "But I've got a blank space, baby"
+      },
+      {
+        "ms": "231700",
+        "words": "And I'll write your name"
+      }
     ]
   },
   {
     "name": "Fanatica Sensual",
     "author": "Plan B",
+    "image": "",
     "lyrics": [
-      "[00:06.65]Es fanática de lo sensual",
-      "[00:09.67]Ella tiene una foto mía",
-      "[00:12.66]Y ya me la puedo imaginar",
-      "[00:15.66]Lo que hace cuando esta sólita",
-      "[00:18.41]Pero yo le voy a preguntar",
-      "[00:21.41]Y a escuchar su voz cuando se agita",
-      "[00:24.16]Por su manera de respirar",
-      "[00:27.41]Puedo imaginarme lo que estas haciendo",
-      "[00:30.15]Si le hablo malo se pone intranquila",
-      "[00:33.17]Pasa su mano por todo su cuerpo",
-      "[00:36.17]Cuando le digo todo lo que le haría",
-      "[00:39.15]Puedo imaginarme lo que esta haciendo",
-      "[00:42.16]Y eso que solo es una foto mía",
-      "[00:45.15]Que pasara cuando nos encontremos",
-      "[00:48.15]De seguro que se lo explicaría",
-      "[00:52.40]Cada vez que hablamos me dice que quieres verme",
-      "[00:54.90]Loca por conocerme, solo piensa en ese día",
-      "[00:57.90]Ver mi fotografía es lo que le daña la mente",
-      "[01:00.67]Con el cuerpo que tiene, dime quien no le daría",
-      "[01:03.66]Llama de madrugada, tan caliente como siempre",
-      "[01:06.65]Me habla de una manera, que ni yo me atrevería",
-      "[01:09.66]Veremos lo que pasa cuando me tenga de frente",
-      "[01:12.16]Es que al igual que ella, también pienso en ese día",
-      "[01:16.91]Es fanática de lo sensual",
-      "[01:19.66]Ella tiene una foto mía",
-      "[01:22.92]Y ya me la puedo imaginar",
-      "[01:26.16]Lo que hace cuando esta sólita",
-      "[01:28.90]Pero yo le voy a preguntar",
-      "[01:31.66]Y a escuchar su voz cuando se agita",
-      "[01:34.65]Por su manera de respirar",
-      "[01:37.40]Puedo imaginarme lo que estas haciendo",
-      "[01:40.40]Si le hablo malo se pone intranquila",
-      "[01:43.65]Pasa su mano por todo su cuerpo",
-      "[01:46.15]Cuando le digo todo lo que le haría",
-      "[01:49.41]Puedo imaginarme lo que esta haciendo",
-      "[01:52.41]Y eso que solo es una foto mía",
-      "[01:55.41]Que pasara cuando nos encontremos",
-      "[01:58.16]De seguro que se lo explicaría",
-      "[02:01.91]Noto que le gusto cuando ella me llama",
-      "[02:04.91]Cuando me habla de travesuras en la cama",
-      "[02:07.66]Pone voz de deseo, hasta me echa fiero",
-      "[02:10.90]Que su fantasía, era cumplir la mía",
-      "[02:14.66]Poco a poco relata, lo que le pasa en su casa",
-      "[02:17.66]Debajo, de sus sabana escondida",
-      "[02:21.90]De como lo prefería, con pregunta insistía",
-      "[02:23.67]Hasta que en su juego me envolvía",
-      "[02:27.16]Es fanática de lo sensual",
-      "[02:29.93]Ella tiene una foto mía",
-      "[02:32.90]Y ya me la puedo imaginar",
-      "[02:35.91]Lo que hace cuando esta sólita",
-      "[02:38.67]Pero yo le voy a preguntar",
-      "[02:41.91]Y a escuchar su voz cuando se agita",
-      "[02:44.91]Por su manera de respirar",
-      "[02:47.90]Puedo imaginarme lo que estas haciendo",
-      "[02:50.92]Si le hablo malo se pone intranquila",
-      "[02:53.65]Pasa su mano por todo su cuerpo",
-      "[02:56.66]Cuando le digo todo lo que le haría",
-      "[02:59.66]Puedo imaginarme lo que esta haciendo",
-      "[03:02.66]Y eso que solo es un foto mía",
-      "[03:05.66]Que pasara cuando nos encontremos",
-      "[03:10.41]De seguro que se lo explicaría"
+      {
+        "ms": "6650",
+        "words": "Es fanática de lo sensual"
+      },
+      {
+        "ms": "9670",
+        "words": "Ella tiene una foto mía"
+      },
+      {
+        "ms": "12660",
+        "words": "Y ya me la puedo imaginar"
+      },
+      {
+        "ms": "15660",
+        "words": "Lo que hace cuando esta sólita"
+      },
+      {
+        "ms": "18410",
+        "words": "Pero yo le voy a preguntar"
+      },
+      {
+        "ms": "21410",
+        "words": "Y a escuchar su voz cuando se agita"
+      },
+      {
+        "ms": "24160",
+        "words": "Por su manera de respirar"
+      },
+      {
+        "ms": "27410",
+        "words": "Puedo imaginarme lo que estas haciendo"
+      },
+      {
+        "ms": "30150",
+        "words": "Si le hablo malo se pone intranquila"
+      },
+      {
+        "ms": "33170",
+        "words": "Pasa su mano por todo su cuerpo"
+      },
+      {
+        "ms": "36170",
+        "words": "Cuando le digo todo lo que le haría"
+      },
+      {
+        "ms": "39150",
+        "words": "Puedo imaginarme lo que esta haciendo"
+      },
+      {
+        "ms": "42160",
+        "words": "Y eso que solo es una foto mía"
+      },
+      {
+        "ms": "45150",
+        "words": "Que pasara cuando nos encontremos"
+      },
+      {
+        "ms": "48150",
+        "words": "De seguro que se lo explicaría"
+      },
+      {
+        "ms": "52400",
+        "words": "Cada vez que hablamos me dice que quieres verme"
+      },
+      {
+        "ms": "54900",
+        "words": "Loca por conocerme, solo piensa en ese día"
+      },
+      {
+        "ms": "57900",
+        "words": "Ver mi fotografía es lo que le daña la mente"
+      },
+      {
+        "ms": "60670",
+        "words": "Con el cuerpo que tiene, dime quien no le daría"
+      },
+      {
+        "ms": "63660",
+        "words": "Llama de madrugada, tan caliente como siempre"
+      },
+      {
+        "ms": "66650",
+        "words": "Me habla de una manera, que ni yo me atrevería"
+      },
+      {
+        "ms": "69660",
+        "words": "Veremos lo que pasa cuando me tenga de frente"
+      },
+      {
+        "ms": "72160",
+        "words": "Es que al igual que ella, también pienso en ese día"
+      },
+      {
+        "ms": "76910",
+        "words": "Es fanática de lo sensual"
+      },
+      {
+        "ms": "79660",
+        "words": "Ella tiene una foto mía"
+      },
+      {
+        "ms": "82920",
+        "words": "Y ya me la puedo imaginar"
+      },
+      {
+        "ms": "86160",
+        "words": "Lo que hace cuando esta sólita"
+      },
+      {
+        "ms": "88900",
+        "words": "Pero yo le voy a preguntar"
+      },
+      {
+        "ms": "91660",
+        "words": "Y a escuchar su voz cuando se agita"
+      },
+      {
+        "ms": "94650",
+        "words": "Por su manera de respirar"
+      },
+      {
+        "ms": "97400",
+        "words": "Puedo imaginarme lo que estas haciendo"
+      },
+      {
+        "ms": "100400",
+        "words": "Si le hablo malo se pone intranquila"
+      },
+      {
+        "ms": "103650",
+        "words": "Pasa su mano por todo su cuerpo"
+      },
+      {
+        "ms": "106150",
+        "words": "Cuando le digo todo lo que le haría"
+      },
+      {
+        "ms": "109410",
+        "words": "Puedo imaginarme lo que esta haciendo"
+      },
+      {
+        "ms": "112410",
+        "words": "Y eso que solo es una foto mía"
+      },
+      {
+        "ms": "115410",
+        "words": "Que pasara cuando nos encontremos"
+      },
+      {
+        "ms": "118160",
+        "words": "De seguro que se lo explicaría"
+      },
+      {
+        "ms": "121910",
+        "words": "Noto que le gusto cuando ella me llama"
+      },
+      {
+        "ms": "124910",
+        "words": "Cuando me habla de travesuras en la cama"
+      },
+      {
+        "ms": "127660",
+        "words": "Pone voz de deseo, hasta me echa fiero"
+      },
+      {
+        "ms": "130900",
+        "words": "Que su fantasía, era cumplir la mía"
+      },
+      {
+        "ms": "134660",
+        "words": "Poco a poco relata, lo que le pasa en su casa"
+      },
+      {
+        "ms": "137660",
+        "words": "Debajo, de sus sabana escondida"
+      },
+      {
+        "ms": "141900",
+        "words": "De como lo prefería, con pregunta insistía"
+      },
+      {
+        "ms": "143670",
+        "words": "Hasta que en su juego me envolvía"
+      },
+      {
+        "ms": "147160",
+        "words": "Es fanática de lo sensual"
+      },
+      {
+        "ms": "149930",
+        "words": "Ella tiene una foto mía"
+      },
+      {
+        "ms": "152900",
+        "words": "Y ya me la puedo imaginar"
+      },
+      {
+        "ms": "155910",
+        "words": "Lo que hace cuando esta sólita"
+      },
+      {
+        "ms": "158670",
+        "words": "Pero yo le voy a preguntar"
+      },
+      {
+        "ms": "161910",
+        "words": "Y a escuchar su voz cuando se agita"
+      },
+      {
+        "ms": "164910",
+        "words": "Por su manera de respirar"
+      },
+      {
+        "ms": "167900",
+        "words": "Puedo imaginarme lo que estas haciendo"
+      },
+      {
+        "ms": "170920",
+        "words": "Si le hablo malo se pone intranquila"
+      },
+      {
+        "ms": "173650",
+        "words": "Pasa su mano por todo su cuerpo"
+      },
+      {
+        "ms": "176660",
+        "words": "Cuando le digo todo lo que le haría"
+      },
+      {
+        "ms": "179660",
+        "words": "Puedo imaginarme lo que esta haciendo"
+      },
+      {
+        "ms": "182660",
+        "words": "Y eso que solo es un foto mía"
+      },
+      {
+        "ms": "185660",
+        "words": "Que pasara cuando nos encontremos"
+      },
+      {
+        "ms": "190410",
+        "words": "De seguro que se lo explicaría"
+      }
     ]
   },
   {
     "name": "Fizz",
     "author": "Babasónicos",
+    "image": "",
     "lyrics": [
-      "[00:06.11]Duelo de vedettes,",
-      "[00:09.61]Pluma por doquier,",
-      "[00:12.61]Ira a flor de piel,",
-      "[00:16.11]Le clavó su taco aguja",
-      "[00:19.86]Y ahora esta del otro lado,",
-      "[00:26.86]No conecta el pasado,",
-      "[00:32.86]Su conciencia,",
-      "[00:36.36]La atormenta y huye",
-      "[00:40.37]Fiesta de farsantes",
-      "[00:41.61]De la espuma social,",
-      "[00:43.11]Invitarme a pasar",
-      "[00:47.11]Fiesta de farsantes",
-      "[00:48.36]De la espuma social",
-      "[00:49.86]Invitarme a pasar",
-      "[00:53.11]Chico dandy,",
-      "[00:56.36]Rey farsante,",
-      "[00:59.86]Diferente igual del suburbio",
-      "[01:04.61]Que se escapa",
-      "[01:07.36]Deja atrás el gris cemento,",
-      "[01:14.11]Flash neón,",
-      "[01:16.11]Luces del centro",
-      "[01:20.35]Seducido,",
-      "[01:23.62]Cae en la trampa",
-      "[01:27.61]Fiesta de farsantes",
-      "[01:28.86]De la espuma social",
-      "[01:30.36]Invitarme a pasar",
-      "[01:34.37]Fiesta de farsantes",
-      "[01:35.61]De la espuma social",
-      "[01:37.11]Invitarme a pasar",
-      "[01:40.36]Galoperos",
-      "[01:43.87]Por dinero",
-      "[01:47.12]Sacan un puñal",
-      "[01:50.35]Sangre tibia en el paisaje",
-      "[01:54.37]Cruza a vuelo sobre el puente,",
-      "[02:01.36]Lo distrae la corriente,",
-      "[02:07.36]Piensa en ello",
-      "[02:10.61]Y no hay marcha atrás",
-      "[02:14.60]Fiesta de farsantes",
-      "[02:16.10]De la espuma social",
-      "[02:17.61]Invitarme a pasar",
-      "[02:21.61]Fiesta de farsantes",
-      "[02:22.86]De la espuma social",
-      "[02:24.12]Invitarme a pasar",
-      "[02:27.85]Fiesta de farsantes",
-      "[02:29.61]De la espuma social",
-      "[02:31.10]Invitarme a pasar",
-      "[02:35.11]Fiesta de farsantes",
-      "[02:36.36]De la espuma social",
-      "[02:37.86]Invitarme a pasar"
+      {
+        "ms": "6110",
+        "words": "Duelo de vedettes,"
+      },
+      {
+        "ms": "9610",
+        "words": "Pluma por doquier,"
+      },
+      {
+        "ms": "12610",
+        "words": "Ira a flor de piel,"
+      },
+      {
+        "ms": "16110",
+        "words": "Le clavó su taco aguja"
+      },
+      {
+        "ms": "19860",
+        "words": "Y ahora esta del otro lado,"
+      },
+      {
+        "ms": "26860",
+        "words": "No conecta el pasado,"
+      },
+      {
+        "ms": "32860",
+        "words": "Su conciencia,"
+      },
+      {
+        "ms": "36360",
+        "words": "La atormenta y huye"
+      },
+      {
+        "ms": "40370",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "41610",
+        "words": "De la espuma social,"
+      },
+      {
+        "ms": "43110",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "47110",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "48360",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "49860",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "53110",
+        "words": "Chico dandy,"
+      },
+      {
+        "ms": "56360",
+        "words": "Rey farsante,"
+      },
+      {
+        "ms": "59860",
+        "words": "Diferente igual del suburbio"
+      },
+      {
+        "ms": "64610",
+        "words": "Que se escapa"
+      },
+      {
+        "ms": "67360",
+        "words": "Deja atrás el gris cemento,"
+      },
+      {
+        "ms": "74110",
+        "words": "Flash neón,"
+      },
+      {
+        "ms": "76110",
+        "words": "Luces del centro"
+      },
+      {
+        "ms": "80350",
+        "words": "Seducido,"
+      },
+      {
+        "ms": "83620",
+        "words": "Cae en la trampa"
+      },
+      {
+        "ms": "87610",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "88860",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "90360",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "94370",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "95610",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "97110",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "100360",
+        "words": "Galoperos"
+      },
+      {
+        "ms": "103870",
+        "words": "Por dinero"
+      },
+      {
+        "ms": "107120",
+        "words": "Sacan un puñal"
+      },
+      {
+        "ms": "110350",
+        "words": "Sangre tibia en el paisaje"
+      },
+      {
+        "ms": "114370",
+        "words": "Cruza a vuelo sobre el puente,"
+      },
+      {
+        "ms": "121360",
+        "words": "Lo distrae la corriente,"
+      },
+      {
+        "ms": "127360",
+        "words": "Piensa en ello"
+      },
+      {
+        "ms": "130610",
+        "words": "Y no hay marcha atrás"
+      },
+      {
+        "ms": "134600",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "136100",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "137610",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "141610",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "142860",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "144120",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "147850",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "149610",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "151100",
+        "words": "Invitarme a pasar"
+      },
+      {
+        "ms": "155110",
+        "words": "Fiesta de farsantes"
+      },
+      {
+        "ms": "156360",
+        "words": "De la espuma social"
+      },
+      {
+        "ms": "157860",
+        "words": "Invitarme a pasar"
+      }
     ]
   },
   {
@@ -344,51 +1279,186 @@
     "author": "Patricio Rey y sus Redonditos de Ricota",
     "image": "https://i.scdn.co/image/ab67616d0000b273c7c1ffa44473871a6f004786",
     "lyrics": [
-      "[00:22.92]En este film velado en blanca noche",
-      "[00:28.89]El hijo tenaz de tu enemigo",
-      "[00:34.37]El muy verdugo cena distinguido",
-      "[00:40.05]Una noche de cristal que se hace añicos",
-      "[00:46.14]No lo soñé",
-      "[00:51.51]Se enderezó y brindó a tu suerte",
-      "[00:57.55]No lo soñé",
-      "[01:03.00]Y se ofreció mejor que nunca",
-      "[01:08.78]No mires, por favor",
-      "[01:11.66]Y no prendas la luz",
-      "[01:14.48]La imagen te desfiguró",
-      "[01:20.04]Este film da una imagen exquisita",
-      "[01:25.88]Esos chicos son como bombas pequeñitas",
-      "[01:31.42]El peor camino a la cueva del perico",
-      "[01:37.25]Para tipos que no duermen por la noche",
-      "[01:43.36]No lo soñé",
-      "[01:48.71]Ibas corriendo a la deriva",
-      "[01:54.55]No lo soñé",
-      "[02:00.25]Los ojos ciegos bien abiertos",
-      "[02:05.93]No mires, por favor",
-      "[02:08.88]Y no prendas la luz",
-      "[02:11.74]La imagen te desfiguró",
-      "[02:16.94]♪",
-      "[03:02.09]¡Uh!",
-      "[03:03.80]♪",
-      "[03:37.22]El montaje final es muy curioso",
-      "[03:42.74]Es en verdad realmente entretenido",
-      "[03:48.28]Vas en la oscura multitud, desprevenido",
-      "[03:53.85]Tiranizando a quienes te han querido",
-      "[04:00.03]No lo soñé",
-      "[04:05.43]Se enderezó y brindó a tu suerte",
-      "[04:11.38]No lo soñé",
-      "[04:16.95]Y se ofreció mejor que nunca",
-      "[04:22.46]No lo soñé",
-      "[04:28.37]Ibas corriendo a la deriva",
-      "[04:34.02]No lo soñé",
-      "[04:39.51]Los ojos ciegos bien abiertos",
-      "[04:45.21]No mires, por favor",
-      "[04:48.04]Y no prendas la luz",
-      "[04:50.97]La imagen te desfiguró",
-      "[04:57.80]♪",
-      "[05:21.33]¡Chernobil, Chernobil, Chernobil!",
-      "[05:24.73]¡Chernobil, es Chernobil!",
-      "[05:28.03]¡Chernobil!",
-      "[05:29.61]"
+      {
+        "ms": "22920",
+        "words": "En este film velado en blanca noche"
+      },
+      {
+        "ms": "28890",
+        "words": "El hijo tenaz de tu enemigo"
+      },
+      {
+        "ms": "34370",
+        "words": "El muy verdugo cena distinguido"
+      },
+      {
+        "ms": "40050",
+        "words": "Una noche de cristal que se hace añicos"
+      },
+      {
+        "ms": "46140",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "51510",
+        "words": "Se enderezó y brindó a tu suerte"
+      },
+      {
+        "ms": "57550",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "63000",
+        "words": "Y se ofreció mejor que nunca"
+      },
+      {
+        "ms": "68780",
+        "words": "No mires, por favor"
+      },
+      {
+        "ms": "71660",
+        "words": "Y no prendas la luz"
+      },
+      {
+        "ms": "74480",
+        "words": "La imagen te desfiguró"
+      },
+      {
+        "ms": "80040",
+        "words": "Este film da una imagen exquisita"
+      },
+      {
+        "ms": "85880",
+        "words": "Esos chicos son como bombas pequeñitas"
+      },
+      {
+        "ms": "91420",
+        "words": "El peor camino a la cueva del perico"
+      },
+      {
+        "ms": "97250",
+        "words": "Para tipos que no duermen por la noche"
+      },
+      {
+        "ms": "103360",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "108710",
+        "words": "Ibas corriendo a la deriva"
+      },
+      {
+        "ms": "114550",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "120250",
+        "words": "Los ojos ciegos bien abiertos"
+      },
+      {
+        "ms": "125930",
+        "words": "No mires, por favor"
+      },
+      {
+        "ms": "128880",
+        "words": "Y no prendas la luz"
+      },
+      {
+        "ms": "131740",
+        "words": "La imagen te desfiguró"
+      },
+      {
+        "ms": "136940",
+        "words": "♪"
+      },
+      {
+        "ms": "182090",
+        "words": "¡Uh!"
+      },
+      {
+        "ms": "183800",
+        "words": "♪"
+      },
+      {
+        "ms": "217220",
+        "words": "El montaje final es muy curioso"
+      },
+      {
+        "ms": "222740",
+        "words": "Es en verdad realmente entretenido"
+      },
+      {
+        "ms": "228280",
+        "words": "Vas en la oscura multitud, desprevenido"
+      },
+      {
+        "ms": "233850",
+        "words": "Tiranizando a quienes te han querido"
+      },
+      {
+        "ms": "240030",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "245430",
+        "words": "Se enderezó y brindó a tu suerte"
+      },
+      {
+        "ms": "251380",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "256950",
+        "words": "Y se ofreció mejor que nunca"
+      },
+      {
+        "ms": "262460",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "268370",
+        "words": "Ibas corriendo a la deriva"
+      },
+      {
+        "ms": "274020",
+        "words": "No lo soñé"
+      },
+      {
+        "ms": "279510",
+        "words": "Los ojos ciegos bien abiertos"
+      },
+      {
+        "ms": "285210",
+        "words": "No mires, por favor"
+      },
+      {
+        "ms": "288040",
+        "words": "Y no prendas la luz"
+      },
+      {
+        "ms": "290970",
+        "words": "La imagen te desfiguró"
+      },
+      {
+        "ms": "297800",
+        "words": "♪"
+      },
+      {
+        "ms": "321330",
+        "words": "¡Chernobil, Chernobil, Chernobil!"
+      },
+      {
+        "ms": "324730",
+        "words": "¡Chernobil, es Chernobil!"
+      },
+      {
+        "ms": "328030",
+        "words": "¡Chernobil!"
+      },
+      {
+        "ms": "329610",
+        "words": ""
+      }
     ]
   },
   {
@@ -396,43 +1466,154 @@
     "author": "Babasónicos",
     "image": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
     "lyrics": [
-      "[00:23.13]Creo que es momento para otra bomba de humo",
-      "[00:27.44]Y batirme en retirada",
-      "[00:32.33]Nuestra sociedad me perjudica",
-      "[00:36.50]Vos no sos una chica cualquiera",
-      "[00:43.59]Qué ridículo es que pienses",
-      "[00:48.19]Que todo es tuyo, inclusive yo",
-      "[00:53.66]Todo eso tuyo puede ser",
-      "[00:58.16]Pero esta noche es para los dos",
-      "[01:02.83]Quizá fue en la mañana en que vendados los dos",
-      "[01:07.44]Descubrimos cómo eran las cosas",
-      "[01:13.04]Y sin abrir los ojos nos teletransportamos",
-      "[01:17.82]A dónde desearíamos estar",
-      "[01:22.97]Entonces deshace el hechizo",
-      "[01:25.78]Que me obliga a arrastrarme entre Guinea y tus sabanas",
-      "[01:33.00]Nuestra sociedad no ayuda mucho",
-      "[01:37.24]Mientras la pasas bien, yo lucho",
-      "[01:43.30]Quizá fue en la mañana en que vendados los dos",
-      "[01:47.67]Descubrimos cómo eran las cosas",
-      "[01:53.36]Y sin abrir los ojos, nos teletransportamos",
-      "[01:58.17]A dónde desearíamos estar",
-      "[02:03.47]Quizá fue en la mañana en que vendados los dos",
-      "[02:07.93]Descubrimos cómo eran las cosas",
-      "[02:13.61]Y sin abrir los ojos, nos teletransportamos",
-      "[02:18.73]A dónde desearíamos estar",
-      "[02:25.34]♪",
-      "[02:44.00]Pero también lo siento",
-      "[02:46.72]Que sólo es un momento",
-      "[02:49.03]Que todos deberíamos pasar",
-      "[02:53.84]Quizá fue en la mañana en que vendados los dos",
-      "[02:58.54]Descubrimos cómo eran las cosas",
-      "[03:04.11]Y sin abrir los ojos, nos teletransportamos",
-      "[03:09.16]A dónde desearíamos estar",
-      "[03:14.18]Quizá fue en la mañana en que vendados los dos",
-      "[03:18.76]Descubrimos cómo eran las cosas",
-      "[03:24.19]Y sin abrir los ojos, nos teletransportamos",
-      "[03:29.27]A dónde desearíamos estar.",
-      "[03:33.11]"
+      {
+        "ms": "23130",
+        "words": "Creo que es momento para otra bomba de humo"
+      },
+      {
+        "ms": "27440",
+        "words": "Y batirme en retirada"
+      },
+      {
+        "ms": "32330",
+        "words": "Nuestra sociedad me perjudica"
+      },
+      {
+        "ms": "36500",
+        "words": "Vos no sos una chica cualquiera"
+      },
+      {
+        "ms": "43590",
+        "words": "Qué ridículo es que pienses"
+      },
+      {
+        "ms": "48190",
+        "words": "Que todo es tuyo, inclusive yo"
+      },
+      {
+        "ms": "53660",
+        "words": "Todo eso tuyo puede ser"
+      },
+      {
+        "ms": "58160",
+        "words": "Pero esta noche es para los dos"
+      },
+      {
+        "ms": "62830",
+        "words": "Quizá fue en la mañana en que vendados los dos"
+      },
+      {
+        "ms": "67440",
+        "words": "Descubrimos cómo eran las cosas"
+      },
+      {
+        "ms": "73040",
+        "words": "Y sin abrir los ojos nos teletransportamos"
+      },
+      {
+        "ms": "77820",
+        "words": "A dónde desearíamos estar"
+      },
+      {
+        "ms": "82970",
+        "words": "Entonces deshace el hechizo"
+      },
+      {
+        "ms": "85780",
+        "words": "Que me obliga a arrastrarme entre Guinea y tus sabanas"
+      },
+      {
+        "ms": "93000",
+        "words": "Nuestra sociedad no ayuda mucho"
+      },
+      {
+        "ms": "97240",
+        "words": "Mientras la pasas bien, yo lucho"
+      },
+      {
+        "ms": "103300",
+        "words": "Quizá fue en la mañana en que vendados los dos"
+      },
+      {
+        "ms": "107670",
+        "words": "Descubrimos cómo eran las cosas"
+      },
+      {
+        "ms": "113360",
+        "words": "Y sin abrir los ojos, nos teletransportamos"
+      },
+      {
+        "ms": "118170",
+        "words": "A dónde desearíamos estar"
+      },
+      {
+        "ms": "123470",
+        "words": "Quizá fue en la mañana en que vendados los dos"
+      },
+      {
+        "ms": "127930",
+        "words": "Descubrimos cómo eran las cosas"
+      },
+      {
+        "ms": "133610",
+        "words": "Y sin abrir los ojos, nos teletransportamos"
+      },
+      {
+        "ms": "138730",
+        "words": "A dónde desearíamos estar"
+      },
+      {
+        "ms": "145340",
+        "words": "♪"
+      },
+      {
+        "ms": "164000",
+        "words": "Pero también lo siento"
+      },
+      {
+        "ms": "166720",
+        "words": "Que sólo es un momento"
+      },
+      {
+        "ms": "169030",
+        "words": "Que todos deberíamos pasar"
+      },
+      {
+        "ms": "173840",
+        "words": "Quizá fue en la mañana en que vendados los dos"
+      },
+      {
+        "ms": "178540",
+        "words": "Descubrimos cómo eran las cosas"
+      },
+      {
+        "ms": "184110",
+        "words": "Y sin abrir los ojos, nos teletransportamos"
+      },
+      {
+        "ms": "189160",
+        "words": "A dónde desearíamos estar"
+      },
+      {
+        "ms": "194180",
+        "words": "Quizá fue en la mañana en que vendados los dos"
+      },
+      {
+        "ms": "198760",
+        "words": "Descubrimos cómo eran las cosas"
+      },
+      {
+        "ms": "204190",
+        "words": "Y sin abrir los ojos, nos teletransportamos"
+      },
+      {
+        "ms": "209270",
+        "words": "A dónde desearíamos estar."
+      },
+      {
+        "ms": "213110",
+        "words": ""
+      }
     ]
   },
   {
@@ -440,37 +1621,130 @@
     "author": "Molchat Doma",
     "image": "https://i.scdn.co/image/ab67616d0000b273d4549c0e601fbe7e8622a2f5",
     "lyrics": [
-      "[00:12.13]Эмалированное судно",
-      "[00:15.14]Окошко, тумбочка, кровать",
-      "[00:18.17]Жить тяжело и неуютно",
-      "[00:20.99]Зато уютно умирать",
-      "[00:23.98]Эмалированное судно",
-      "[00:27.10]Окошко, тумбочка, кровать",
-      "[00:29.99]Жить тяжело и неуютно",
-      "[00:32.97]Зато уютно умирать",
-      "[00:36.32]♪",
-      "[00:51.04]И тихо капает из крана",
-      "[00:54.09]И жизнь растрёпана, как блядь",
-      "[00:57.29]Выходит как бы из тумана",
-      "[01:00.03]И видит: тумбочка, кровать",
-      "[01:03.20]♪",
-      "[01:09.00]И я пытаюсь приподняться",
-      "[01:12.06]Хочу в глаза ей поглядеть",
-      "[01:15.09]Взглянуть в глаза и разрыдаться",
-      "[01:18.27]И никогда не умереть, никогда не умереть",
-      "[01:22.69]Никогда не умереть",
-      "[01:25.84]Никогда не умереть",
-      "[01:28.80]Никогда не умереть",
-      "[01:30.21]Никогда не умереть",
-      "[01:33.29]Эмалированное судно",
-      "[01:36.11]Окошко, тумбочка, кровать",
-      "[01:39.02]Жить тяжело и неуютно",
-      "[01:42.00]Зато уютно умирать",
-      "[01:44.93]Эмалированное судно",
-      "[01:48.05]Окошко, тумбочка, кровать",
-      "[01:51.00]Жить тяжело и неуютно",
-      "[01:54.02]Зато уютно умирать",
-      "[01:55.16]"
+      {
+        "ms": "12130",
+        "words": "Эмалированное судно"
+      },
+      {
+        "ms": "15140",
+        "words": "Окошко, тумбочка, кровать"
+      },
+      {
+        "ms": "18170",
+        "words": "Жить тяжело и неуютно"
+      },
+      {
+        "ms": "20990",
+        "words": "Зато уютно умирать"
+      },
+      {
+        "ms": "23980",
+        "words": "Эмалированное судно"
+      },
+      {
+        "ms": "27100",
+        "words": "Окошко, тумбочка, кровать"
+      },
+      {
+        "ms": "29990",
+        "words": "Жить тяжело и неуютно"
+      },
+      {
+        "ms": "32970",
+        "words": "Зато уютно умирать"
+      },
+      {
+        "ms": "36320",
+        "words": "♪"
+      },
+      {
+        "ms": "51040",
+        "words": "И тихо капает из крана"
+      },
+      {
+        "ms": "54090",
+        "words": "И жизнь растрёпана, как блядь"
+      },
+      {
+        "ms": "57290",
+        "words": "Выходит как бы из тумана"
+      },
+      {
+        "ms": "60030",
+        "words": "И видит: тумбочка, кровать"
+      },
+      {
+        "ms": "63200",
+        "words": "♪"
+      },
+      {
+        "ms": "69000",
+        "words": "И я пытаюсь приподняться"
+      },
+      {
+        "ms": "72060",
+        "words": "Хочу в глаза ей поглядеть"
+      },
+      {
+        "ms": "75090",
+        "words": "Взглянуть в глаза и разрыдаться"
+      },
+      {
+        "ms": "78270",
+        "words": "И никогда не умереть, никогда не умереть"
+      },
+      {
+        "ms": "82690",
+        "words": "Никогда не умереть"
+      },
+      {
+        "ms": "85840",
+        "words": "Никогда не умереть"
+      },
+      {
+        "ms": "88800",
+        "words": "Никогда не умереть"
+      },
+      {
+        "ms": "90210",
+        "words": "Никогда не умереть"
+      },
+      {
+        "ms": "93290",
+        "words": "Эмалированное судно"
+      },
+      {
+        "ms": "96110",
+        "words": "Окошко, тумбочка, кровать"
+      },
+      {
+        "ms": "99020",
+        "words": "Жить тяжело и неуютно"
+      },
+      {
+        "ms": "102000",
+        "words": "Зато уютно умирать"
+      },
+      {
+        "ms": "104930",
+        "words": "Эмалированное судно"
+      },
+      {
+        "ms": "108050",
+        "words": "Окошко, тумбочка, кровать"
+      },
+      {
+        "ms": "111000",
+        "words": "Жить тяжело и неуютно"
+      },
+      {
+        "ms": "114020",
+        "words": "Зато уютно умирать"
+      },
+      {
+        "ms": "115160",
+        "words": ""
+      }
     ]
   },
   {
@@ -478,34 +1752,118 @@
     "author": "Viejas Locas",
     "image": "https://i.scdn.co/image/ab67616d0000b273df3f8fd1d8e59db737afc889",
     "lyrics": [
-      "[00:28.20]Nos conocimos bailando en un bar",
-      "[00:32.64]Tus piernas volaban, las sabías llevar",
-      "[00:37.01]A mí me gustaba cómo las movías",
-      "[00:41.41]Y juntos nos fuimos a pernoctar",
-      "[00:44.28]Es que me gustas mucho",
-      "[00:48.90]Me gustas mucho",
-      "[00:53.35]Me gustas mucho",
-      "[00:57.55]Me gustas mucho",
-      "[01:00.66]♪",
-      "[01:11.55]Me gusta como te vestís y como andás",
-      "[01:15.75]Me gusta tu pelo, tu cuerpo",
-      "[01:19.98]Me gustaría poderte bañar",
-      "[01:24.42]También secarte y volverte a enjuagar",
-      "[01:27.22]Porque me gustas mucho",
-      "[01:31.93]Me gustas mucho, nena",
-      "[01:36.28]Me gustas mucho",
-      "[01:40.53]Me gustas mucho, nena",
-      "[01:44.00]Y será que me gustas tanto, de ser que",
-      "[01:47.92]No puedo disimular",
-      "[01:51.13]De veras",
-      "[01:54.33]♪",
-      "[02:43.69]Me gustas mucho",
-      "[02:47.97]Me gustas mucho, nena",
-      "[02:51.55]Será que me gustas tanto, pero tanto",
-      "[02:56.39]Me gustas mucho, nena",
-      "[02:59.93]Y porque me gustas tanto debe ser que",
-      "[03:03.47]Nunca te voy a olvidar",
-      "[03:05.27]"
+      {
+        "ms": "28200",
+        "words": "Nos conocimos bailando en un bar"
+      },
+      {
+        "ms": "32640",
+        "words": "Tus piernas volaban, las sabías llevar"
+      },
+      {
+        "ms": "37010",
+        "words": "A mí me gustaba cómo las movías"
+      },
+      {
+        "ms": "41410",
+        "words": "Y juntos nos fuimos a pernoctar"
+      },
+      {
+        "ms": "44280",
+        "words": "Es que me gustas mucho"
+      },
+      {
+        "ms": "48900",
+        "words": "Me gustas mucho"
+      },
+      {
+        "ms": "53350",
+        "words": "Me gustas mucho"
+      },
+      {
+        "ms": "57550",
+        "words": "Me gustas mucho"
+      },
+      {
+        "ms": "60660",
+        "words": "♪"
+      },
+      {
+        "ms": "71550",
+        "words": "Me gusta como te vestís y como andás"
+      },
+      {
+        "ms": "75750",
+        "words": "Me gusta tu pelo, tu cuerpo"
+      },
+      {
+        "ms": "79980",
+        "words": "Me gustaría poderte bañar"
+      },
+      {
+        "ms": "84420",
+        "words": "También secarte y volverte a enjuagar"
+      },
+      {
+        "ms": "87220",
+        "words": "Porque me gustas mucho"
+      },
+      {
+        "ms": "91930",
+        "words": "Me gustas mucho, nena"
+      },
+      {
+        "ms": "96280",
+        "words": "Me gustas mucho"
+      },
+      {
+        "ms": "100530",
+        "words": "Me gustas mucho, nena"
+      },
+      {
+        "ms": "104000",
+        "words": "Y será que me gustas tanto, de ser que"
+      },
+      {
+        "ms": "107920",
+        "words": "No puedo disimular"
+      },
+      {
+        "ms": "111130",
+        "words": "De veras"
+      },
+      {
+        "ms": "114330",
+        "words": "♪"
+      },
+      {
+        "ms": "163690",
+        "words": "Me gustas mucho"
+      },
+      {
+        "ms": "167970",
+        "words": "Me gustas mucho, nena"
+      },
+      {
+        "ms": "171550",
+        "words": "Será que me gustas tanto, pero tanto"
+      },
+      {
+        "ms": "176390",
+        "words": "Me gustas mucho, nena"
+      },
+      {
+        "ms": "179930",
+        "words": "Y porque me gustas tanto debe ser que"
+      },
+      {
+        "ms": "183470",
+        "words": "Nunca te voy a olvidar"
+      },
+      {
+        "ms": "185270",
+        "words": ""
+      }
     ]
   },
   {
@@ -513,42 +1871,150 @@
     "author": "Los Abuelos De La Nada",
     "image": "https://i.scdn.co/image/ab67616d0000b273c980aa1225aa4e8828c532cd",
     "lyrics": [
-      "[00:02.59]Hace frío",
-      "[00:04.31]Y estoy lejos de casa",
-      "[00:07.20]Hace tiempo que estoy sentado sobre esta piedra",
-      "[00:11.67]Yo me pregunto, ¿para qué sirven las guerras?",
-      "[00:17.04]Tengo un cohete en el pantalón",
-      "[00:19.56]Vos estás tan fría",
-      "[00:22.42]Como la nieve a mi alrededor",
-      "[00:24.66]Vos estás tan blanca",
-      "[00:27.35]Que yo no sé qué hacer",
-      "[00:30.68]La otra noche te esperé bajo la lluvia, dos horas, mil horas, como un perro",
-      "[00:40.47]Y cuando llegaste, me miraste y me dijiste: \"loco, estás mojado, ya no te quiero\"",
-      "[00:50.77]En el circo, vos ya sos una estrella",
-      "[00:55.28]Una estrella roja que todo se lo imagina",
-      "[00:59.37]Si te preguntan",
-      "[01:02.13]Vos no me conocías, no, no",
-      "[01:04.32]Tengo un cohete en el pantalón",
-      "[01:07.95]Vos estás tan fría",
-      "[01:10.45]Como la nieve a mi alrededor",
-      "[01:12.88]Vos estás tan blanca",
-      "[01:15.35]Que ya no sé que hacer",
-      "[01:18.89]Ah",
-      "[01:20.96]♪",
-      "[01:25.33]Te esperé bajo la lluvia, no, no, no, no",
-      "[01:28.52]♪",
-      "[01:33.58]Ah, ja, ja",
-      "[01:34.94]La otra noche te esperé bajo la lluvia dos horas",
-      "[01:39.18]Mil horas",
-      "[01:41.26]Como un perro",
-      "[01:43.43]Y cuando llegaste, me miraste y me dijiste: \"loco, estás mojado, ya no te quiero\"",
-      "[01:51.87]Ah, ja, ja",
-      "[01:52.67]La otra noche te esperé bajo la lluvia dos horas",
-      "[01:57.16]Mil horas",
-      "[01:59.57]Como un perro",
-      "[02:02.86]Y cuando llegaste, me miraste y me dijiste: \"loco estás mojado, ya no te quiero\"",
-      "[02:09.25]Ah, ja, ja",
-      "[02:10.03]"
+      {
+        "ms": "2590",
+        "words": "Hace frío"
+      },
+      {
+        "ms": "4310",
+        "words": "Y estoy lejos de casa"
+      },
+      {
+        "ms": "7200",
+        "words": "Hace tiempo que estoy sentado sobre esta piedra"
+      },
+      {
+        "ms": "11670",
+        "words": "Yo me pregunto, ¿para qué sirven las guerras?"
+      },
+      {
+        "ms": "17040",
+        "words": "Tengo un cohete en el pantalón"
+      },
+      {
+        "ms": "19560",
+        "words": "Vos estás tan fría"
+      },
+      {
+        "ms": "22420",
+        "words": "Como la nieve a mi alrededor"
+      },
+      {
+        "ms": "24660",
+        "words": "Vos estás tan blanca"
+      },
+      {
+        "ms": "27350",
+        "words": "Que yo no sé qué hacer"
+      },
+      {
+        "ms": "30680",
+        "words": "La otra noche te esperé bajo la lluvia, dos horas, mil horas, como un perro"
+      },
+      {
+        "ms": "40470",
+        "words": "Y cuando llegaste, me miraste y me dijiste: \"loco, estás mojado, ya no te quiero\""
+      },
+      {
+        "ms": "50770",
+        "words": "En el circo, vos ya sos una estrella"
+      },
+      {
+        "ms": "55280",
+        "words": "Una estrella roja que todo se lo imagina"
+      },
+      {
+        "ms": "59370",
+        "words": "Si te preguntan"
+      },
+      {
+        "ms": "62130",
+        "words": "Vos no me conocías, no, no"
+      },
+      {
+        "ms": "64320",
+        "words": "Tengo un cohete en el pantalón"
+      },
+      {
+        "ms": "67950",
+        "words": "Vos estás tan fría"
+      },
+      {
+        "ms": "70450",
+        "words": "Como la nieve a mi alrededor"
+      },
+      {
+        "ms": "72880",
+        "words": "Vos estás tan blanca"
+      },
+      {
+        "ms": "75350",
+        "words": "Que ya no sé que hacer"
+      },
+      {
+        "ms": "78890",
+        "words": "Ah"
+      },
+      {
+        "ms": "80960",
+        "words": "♪"
+      },
+      {
+        "ms": "85330",
+        "words": "Te esperé bajo la lluvia, no, no, no, no"
+      },
+      {
+        "ms": "88520",
+        "words": "♪"
+      },
+      {
+        "ms": "93580",
+        "words": "Ah, ja, ja"
+      },
+      {
+        "ms": "94940",
+        "words": "La otra noche te esperé bajo la lluvia dos horas"
+      },
+      {
+        "ms": "99180",
+        "words": "Mil horas"
+      },
+      {
+        "ms": "101260",
+        "words": "Como un perro"
+      },
+      {
+        "ms": "103430",
+        "words": "Y cuando llegaste, me miraste y me dijiste: \"loco, estás mojado, ya no te quiero\""
+      },
+      {
+        "ms": "111870",
+        "words": "Ah, ja, ja"
+      },
+      {
+        "ms": "112670",
+        "words": "La otra noche te esperé bajo la lluvia dos horas"
+      },
+      {
+        "ms": "117160",
+        "words": "Mil horas"
+      },
+      {
+        "ms": "119570",
+        "words": "Como un perro"
+      },
+      {
+        "ms": "122860",
+        "words": "Y cuando llegaste, me miraste y me dijiste: \"loco estás mojado, ya no te quiero\""
+      },
+      {
+        "ms": "129250",
+        "words": "Ah, ja, ja"
+      },
+      {
+        "ms": "130030",
+        "words": ""
+      }
     ]
   },
   {
@@ -556,56 +2022,206 @@
     "author": "Vicentico",
     "image": "https://i.scdn.co/image/ab67616d0000b27334e63caa064cfc524f0afda4",
     "lyrics": [
-      "[00:09.76]¿Hace falta que te diga",
-      "[00:12.32]Que me muero por tener algo contigo?",
-      "[00:17.17]",
-      "[00:19.55]¿Es que no te has dado cuenta",
-      "[00:22.03]De lo mucho que me cuesta ser tu amigo?",
-      "[00:27.16]",
-      "[00:29.52]Ya no puedo acercarme a tu boca",
-      "[00:34.24]Sin deseártela de una manera loca",
-      "[00:39.30]Necesito controlar tu vida",
-      "[00:43.70]Ver quién te besa y quién te abriga",
-      "[00:49.11]¿Hace falta que te diga",
-      "[00:51.62]Que me muero por tener algo contigo?",
-      "[00:58.43]¿Es que no te has dado cuenta",
-      "[01:00.99]De lo mucho que me cuesta ser tu amigo?",
-      "[01:05.69]",
-      "[01:07.78]Ya no puedo, continuar espiando",
-      "[01:12.17]Día y noche tu llegar adivinando",
-      "[01:16.95]Ya ni sé, con que inocente excusa",
-      "[01:20.80]Pasar por tu casa",
-      "[01:26.03]Ya me quedan tan pocos caminos",
-      "[01:30.44]Y aunque pueda parecerte un desatino",
-      "[01:35.06]No quisiera yo morirme sin tener",
-      "[01:38.89]Algo contigo",
-      "[01:44.08]¿Hace falta que te diga",
-      "[01:46.50]Que me muero por tener algo contigo?",
-      "[01:51.42]",
-      "[01:53.49]¿Es que no te has dado cuenta",
-      "[01:55.66]De lo mucho que me cuesta ser tu amigo?",
-      "[02:02.24]Ya no puedo acercarme a tu boca",
-      "[02:06.99]Sin deseártela de una manera loca",
-      "[02:11.39]Necesito, niña, controlar tu vida,",
-      "[02:15.13]Saber quién te besa y quién te abriga",
-      "[02:20.41]Ya me quedan muy pocos caminos",
-      "[02:24.76]Y aunque pueda parecerte un desatino",
-      "[02:29.19]No quisiera, yo morirme sin tener",
-      "[02:33.18]Algo contigo",
-      "[02:38.79](Algo contigo, algo contigo)",
-      "[02:43.34]Niña no quisiera yo morirme sin tener",
-      "[02:47.81](Algo contigo, algo contigo)",
-      "[02:51.41]Triste el destino que me espera sin poderte conocer",
-      "[02:57.09](Algo contigo, algo contigo)",
-      "[03:00.51]Ya no hay excusa, ya no hay nada que tenga que perder",
-      "[03:05.82](Algo contigo, algo contigo)",
-      "[03:10.10]Esclavo para siempre no me importaría ser",
-      "[03:14.93](Algo contigo, algo contigo)",
-      "[03:19.35]Niña no quisiera yo morirme sin tener",
-      "[03:23.80](Algo contigo, algo contigo)",
-      "[03:27.62]Triste el destino que me espera sin poderte conocer",
-      "[03:32.72](Algo contigo, algo contigo)",
-      "[03:34.91]"
+      {
+        "ms": "9760",
+        "words": "¿Hace falta que te diga"
+      },
+      {
+        "ms": "12320",
+        "words": "Que me muero por tener algo contigo?"
+      },
+      {
+        "ms": "17170",
+        "words": ""
+      },
+      {
+        "ms": "19550",
+        "words": "¿Es que no te has dado cuenta"
+      },
+      {
+        "ms": "22030",
+        "words": "De lo mucho que me cuesta ser tu amigo?"
+      },
+      {
+        "ms": "27160",
+        "words": ""
+      },
+      {
+        "ms": "29520",
+        "words": "Ya no puedo acercarme a tu boca"
+      },
+      {
+        "ms": "34240",
+        "words": "Sin deseártela de una manera loca"
+      },
+      {
+        "ms": "39300",
+        "words": "Necesito controlar tu vida"
+      },
+      {
+        "ms": "43700",
+        "words": "Ver quién te besa y quién te abriga"
+      },
+      {
+        "ms": "49110",
+        "words": "¿Hace falta que te diga"
+      },
+      {
+        "ms": "51620",
+        "words": "Que me muero por tener algo contigo?"
+      },
+      {
+        "ms": "58430",
+        "words": "¿Es que no te has dado cuenta"
+      },
+      {
+        "ms": "60990",
+        "words": "De lo mucho que me cuesta ser tu amigo?"
+      },
+      {
+        "ms": "65690",
+        "words": ""
+      },
+      {
+        "ms": "67780",
+        "words": "Ya no puedo, continuar espiando"
+      },
+      {
+        "ms": "72170",
+        "words": "Día y noche tu llegar adivinando"
+      },
+      {
+        "ms": "76950",
+        "words": "Ya ni sé, con que inocente excusa"
+      },
+      {
+        "ms": "80800",
+        "words": "Pasar por tu casa"
+      },
+      {
+        "ms": "86030",
+        "words": "Ya me quedan tan pocos caminos"
+      },
+      {
+        "ms": "90440",
+        "words": "Y aunque pueda parecerte un desatino"
+      },
+      {
+        "ms": "95060",
+        "words": "No quisiera yo morirme sin tener"
+      },
+      {
+        "ms": "98890",
+        "words": "Algo contigo"
+      },
+      {
+        "ms": "104080",
+        "words": "¿Hace falta que te diga"
+      },
+      {
+        "ms": "106500",
+        "words": "Que me muero por tener algo contigo?"
+      },
+      {
+        "ms": "111420",
+        "words": ""
+      },
+      {
+        "ms": "113490",
+        "words": "¿Es que no te has dado cuenta"
+      },
+      {
+        "ms": "115660",
+        "words": "De lo mucho que me cuesta ser tu amigo?"
+      },
+      {
+        "ms": "122240",
+        "words": "Ya no puedo acercarme a tu boca"
+      },
+      {
+        "ms": "126990",
+        "words": "Sin deseártela de una manera loca"
+      },
+      {
+        "ms": "131390",
+        "words": "Necesito, niña, controlar tu vida,"
+      },
+      {
+        "ms": "135130",
+        "words": "Saber quién te besa y quién te abriga"
+      },
+      {
+        "ms": "140410",
+        "words": "Ya me quedan muy pocos caminos"
+      },
+      {
+        "ms": "144760",
+        "words": "Y aunque pueda parecerte un desatino"
+      },
+      {
+        "ms": "149190",
+        "words": "No quisiera, yo morirme sin tener"
+      },
+      {
+        "ms": "153180",
+        "words": "Algo contigo"
+      },
+      {
+        "ms": "158790",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "163340",
+        "words": "Niña no quisiera yo morirme sin tener"
+      },
+      {
+        "ms": "167810",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "171410",
+        "words": "Triste el destino que me espera sin poderte conocer"
+      },
+      {
+        "ms": "177090",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "180510",
+        "words": "Ya no hay excusa, ya no hay nada que tenga que perder"
+      },
+      {
+        "ms": "185820",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "190100",
+        "words": "Esclavo para siempre no me importaría ser"
+      },
+      {
+        "ms": "194930",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "199350",
+        "words": "Niña no quisiera yo morirme sin tener"
+      },
+      {
+        "ms": "203800",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "207620",
+        "words": "Triste el destino que me espera sin poderte conocer"
+      },
+      {
+        "ms": "212720",
+        "words": "(Algo contigo, algo contigo)"
+      },
+      {
+        "ms": "214910",
+        "words": ""
+      }
     ]
   },
   {
@@ -613,36 +2229,126 @@
     "author": "Pescado Rabioso",
     "image": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
     "lyrics": [
-      "[00:11.51]Tengo tiempo",
-      "[00:13.96]Para saber",
-      "[00:16.89]Si lo que sueño concluye en algo",
-      "[00:20.86]No te apures",
-      "[00:23.49]Ya más, loco",
-      "[00:26.17]Porque es entonces cuando las horas",
-      "[00:30.15]Bajan, el día",
-      "[00:35.39]Es vidrio sin sol",
-      "[00:41.24]Bajan, la noche",
-      "[00:46.42]Te oculta la voz",
-      "[00:51.62]Y además",
-      "[00:55.08]Vos querés Sol",
-      "[01:00.37]Despacio también",
-      "[01:05.04]Podés hallar la Luna",
-      "[01:09.51]♪",
-      "[01:22.96]Viejo roble",
-      "[01:25.25]Del camino",
-      "[01:27.94]Tus hojas siempre se agitan algo",
-      "[01:32.40]Nena, nena",
-      "[01:34.86]Qué bien te ves",
-      "[01:37.61]Cuando en tus ojos no importa si las horas",
-      "[01:41.57]Bajan, el día",
-      "[01:46.54]Se sienta a morir",
-      "[01:52.18]Bajan, la noche",
-      "[01:57.41]Se nubla sin fin",
-      "[02:02.74]Y además",
-      "[02:05.93]Vos sos el Sol",
-      "[02:11.32]Despacio también",
-      "[02:16.17]Podés ser la Luna",
-      "[02:19.31]"
+      {
+        "ms": "11510",
+        "words": "Tengo tiempo"
+      },
+      {
+        "ms": "13960",
+        "words": "Para saber"
+      },
+      {
+        "ms": "16890",
+        "words": "Si lo que sueño concluye en algo"
+      },
+      {
+        "ms": "20860",
+        "words": "No te apures"
+      },
+      {
+        "ms": "23490",
+        "words": "Ya más, loco"
+      },
+      {
+        "ms": "26170",
+        "words": "Porque es entonces cuando las horas"
+      },
+      {
+        "ms": "30150",
+        "words": "Bajan, el día"
+      },
+      {
+        "ms": "35390",
+        "words": "Es vidrio sin sol"
+      },
+      {
+        "ms": "41240",
+        "words": "Bajan, la noche"
+      },
+      {
+        "ms": "46420",
+        "words": "Te oculta la voz"
+      },
+      {
+        "ms": "51620",
+        "words": "Y además"
+      },
+      {
+        "ms": "55080",
+        "words": "Vos querés Sol"
+      },
+      {
+        "ms": "60370",
+        "words": "Despacio también"
+      },
+      {
+        "ms": "65040",
+        "words": "Podés hallar la Luna"
+      },
+      {
+        "ms": "69510",
+        "words": "♪"
+      },
+      {
+        "ms": "82960",
+        "words": "Viejo roble"
+      },
+      {
+        "ms": "85250",
+        "words": "Del camino"
+      },
+      {
+        "ms": "87940",
+        "words": "Tus hojas siempre se agitan algo"
+      },
+      {
+        "ms": "92400",
+        "words": "Nena, nena"
+      },
+      {
+        "ms": "94860",
+        "words": "Qué bien te ves"
+      },
+      {
+        "ms": "97610",
+        "words": "Cuando en tus ojos no importa si las horas"
+      },
+      {
+        "ms": "101570",
+        "words": "Bajan, el día"
+      },
+      {
+        "ms": "106540",
+        "words": "Se sienta a morir"
+      },
+      {
+        "ms": "112180",
+        "words": "Bajan, la noche"
+      },
+      {
+        "ms": "117410",
+        "words": "Se nubla sin fin"
+      },
+      {
+        "ms": "122740",
+        "words": "Y además"
+      },
+      {
+        "ms": "125930",
+        "words": "Vos sos el Sol"
+      },
+      {
+        "ms": "131320",
+        "words": "Despacio también"
+      },
+      {
+        "ms": "136170",
+        "words": "Podés ser la Luna"
+      },
+      {
+        "ms": "139310",
+        "words": ""
+      }
     ]
   },
   {
@@ -650,49 +2356,591 @@
     "author": "Babasónicos",
     "image": "https://i.scdn.co/image/ab67616d0000b2734febc01367fbd2d1ec9f1d60",
     "lyrics": [
-      "[00:30.07]Sin piedad, dejás atrás un séquito de vana idolatría",
-      "[00:40.65]Sos tan espectacular que no podés ser mía nada más",
-      "[00:48.07](Tenés que ser de todos)",
-      "[00:51.96]La piel, los labios donde roza la bambula",
-      "[01:02.75]Serán mi prado, mi vergel",
-      "[01:11.96]Ya sé",
-      "[01:14.72]Que el camino a la fama",
-      "[01:17.29]No significa nada",
-      "[01:20.03]Si no hay una misión",
-      "[01:22.95]¿Cuál es?",
-      "[01:25.34]Hacerte muy putita",
-      "[01:28.18]Probar tu galletita",
-      "[01:30.63]Con toda devoción",
-      "[01:33.52]Ya sé",
-      "[01:36.35]Ya sé",
-      "[01:39.10]Cuál es",
-      "[01:41.78]Ya sé",
-      "[01:45.57]Derramás esa impresión de ser la acción que encarna la ternura",
-      "[01:56.22]A tu alrededor no hay humildad, la Venus es caricatura",
-      "[02:03.73](Tenés que ser de todos)",
-      "[02:07.32]La piel, los labios donde roza la bambula",
-      "[02:18.11]Serán mi prado, mi vergel",
-      "[02:27.39]Ya sé",
-      "[02:30.01]Que el camino a la fama",
-      "[02:32.73]No significa nada",
-      "[02:35.57]Si no hay una misión",
-      "[02:38.46]¿Cuál es?",
-      "[02:41.02]Hacerte muy putita",
-      "[02:43.72]Probar tu galletita",
-      "[02:46.48]Con toda devoción",
-      "[02:49.19]Ya sé",
-      "[02:51.60]Ya sé",
-      "[02:54.63]Cuál es",
-      "[02:57.36]Ya sé",
-      "[03:00.13]♪",
-      "[03:21.36]Ya sé",
-      "[03:24.20]Ya sé",
-      "[03:26.83]Cuál es",
-      "[03:29.49]Ya sé",
-      "[03:32.18]Ya sé",
-      "[03:34.77]Ya sé",
-      "[03:37.53]Cuál es",
-      "[03:39.69]"
+      {
+        "ms": "30070",
+        "words": "Sin piedad, dejás atrás un séquito de vana idolatría"
+      },
+      {
+        "ms": "40650",
+        "words": "Sos tan espectacular que no podés ser mía nada más"
+      },
+      {
+        "ms": "48070",
+        "words": "(Tenés que ser de todos)"
+      },
+      {
+        "ms": "51960",
+        "words": "La piel, los labios donde roza la bambula"
+      },
+      {
+        "ms": "62750",
+        "words": "Serán mi prado, mi vergel"
+      },
+      {
+        "ms": "71960",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "74720",
+        "words": "Que el camino a la fama"
+      },
+      {
+        "ms": "77290",
+        "words": "No significa nada"
+      },
+      {
+        "ms": "80030",
+        "words": "Si no hay una misión"
+      },
+      {
+        "ms": "82950",
+        "words": "¿Cuál es?"
+      },
+      {
+        "ms": "85340",
+        "words": "Hacerte muy putita"
+      },
+      {
+        "ms": "88180",
+        "words": "Probar tu galletita"
+      },
+      {
+        "ms": "90630",
+        "words": "Con toda devoción"
+      },
+      {
+        "ms": "93520",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "96350",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "99100",
+        "words": "Cuál es"
+      },
+      {
+        "ms": "101780",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "105570",
+        "words": "Derramás esa impresión de ser la acción que encarna la ternura"
+      },
+      {
+        "ms": "116220",
+        "words": "A tu alrededor no hay humildad, la Venus es caricatura"
+      },
+      {
+        "ms": "123730",
+        "words": "(Tenés que ser de todos)"
+      },
+      {
+        "ms": "127320",
+        "words": "La piel, los labios donde roza la bambula"
+      },
+      {
+        "ms": "138110",
+        "words": "Serán mi prado, mi vergel"
+      },
+      {
+        "ms": "147390",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "150010",
+        "words": "Que el camino a la fama"
+      },
+      {
+        "ms": "152730",
+        "words": "No significa nada"
+      },
+      {
+        "ms": "155570",
+        "words": "Si no hay una misión"
+      },
+      {
+        "ms": "158460",
+        "words": "¿Cuál es?"
+      },
+      {
+        "ms": "161020",
+        "words": "Hacerte muy putita"
+      },
+      {
+        "ms": "163720",
+        "words": "Probar tu galletita"
+      },
+      {
+        "ms": "166480",
+        "words": "Con toda devoción"
+      },
+      {
+        "ms": "169190",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "171600",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "174630",
+        "words": "Cuál es"
+      },
+      {
+        "ms": "177360",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "180130",
+        "words": "♪"
+      },
+      {
+        "ms": "201360",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "204200",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "206830",
+        "words": "Cuál es"
+      },
+      {
+        "ms": "209490",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "212180",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "214770",
+        "words": "Ya sé"
+      },
+      {
+        "ms": "217530",
+        "words": "Cuál es"
+      },
+      {
+        "ms": "219690",
+        "words": ""
+      }
+    ]
+  },
+  {
+    "name": "Mississippi Queen",
+    "author": "Mountain",
+    "image": "https://i.scdn.co/image/ab67616d0000b273411cacfc3518a9f2c4a670f6",
+    "lyrics": [
+      {
+        "ms": "18480",
+        "words": "Mississippi Queen"
+      },
+      {
+        "ms": "21580",
+        "words": "If you know what I mean"
+      },
+      {
+        "ms": "25160",
+        "words": "Mississippi Queen"
+      },
+      {
+        "ms": "28330",
+        "words": "She taught me everything"
+      },
+      {
+        "ms": "31930",
+        "words": "Way down around Vicksburg"
+      },
+      {
+        "ms": "35240",
+        "words": "Around Louisiana way"
+      },
+      {
+        "ms": "38680",
+        "words": "Lived a Cajun lady, we called her Mississippi Queen"
+      },
+      {
+        "ms": "45550",
+        "words": "You know she was a dancer"
+      },
+      {
+        "ms": "48890",
+        "words": "She moved better on wine"
+      },
+      {
+        "ms": "50880",
+        "words": "While the rest of them dudes were a-gettin' their kicks"
+      },
+      {
+        "ms": "54530",
+        "words": "Buddy, beg your pardon, I was getting mine!"
+      },
+      {
+        "ms": "59660",
+        "words": "Mississippi Queen"
+      },
+      {
+        "ms": "62700",
+        "words": "If you know what I mean"
+      },
+      {
+        "ms": "66280",
+        "words": "Mississippi Queen"
+      },
+      {
+        "ms": "69580",
+        "words": "She taught me everything"
+      },
+      {
+        "ms": "73110",
+        "words": "This lady she asked me, if I would be her man?"
+      },
+      {
+        "ms": "80070",
+        "words": "You know that I told her, I'd do what I can"
+      },
+      {
+        "ms": "87000",
+        "words": "To keep her looking pretty"
+      },
+      {
+        "ms": "90250",
+        "words": "Buy her dresses that shine"
+      },
+      {
+        "ms": "92440",
+        "words": "While the rest of them dudes were making their bread"
+      },
+      {
+        "ms": "95950",
+        "words": "Buddy, beg your pardon, I was losing mine!"
+      },
+      {
+        "ms": "100580",
+        "words": "♪"
+      },
+      {
+        "ms": "128370",
+        "words": "You know she was a dancer"
+      },
+      {
+        "ms": "131670",
+        "words": "She moved better on wine"
+      },
+      {
+        "ms": "133640",
+        "words": "While the rest of them dudes were a-gettin' their kicks"
+      },
+      {
+        "ms": "137270",
+        "words": "Brother, beg your pardon, now I'm getting mine!"
+      },
+      {
+        "ms": "141170",
+        "words": "Oh, Mississippi Queen"
+      },
+      {
+        "ms": "143720",
+        "words": ""
+      }
+    ]
+  },
+  {
+    "name": "Risa",
+    "author": "Babasónicos",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734febc01367fbd2d1ec9f1d60",
+    "lyrics": [
+      {
+        "ms": "15580",
+        "words": "En la palestra de desconocidos"
+      },
+      {
+        "ms": "19380",
+        "words": "Busco a su lado el calor"
+      },
+      {
+        "ms": "23060",
+        "words": "Y simulando mojarle el oído"
+      },
+      {
+        "ms": "26670",
+        "words": "Le besó el cuello y le dijo"
+      },
+      {
+        "ms": "30760",
+        "words": "Me gustas tanto"
+      },
+      {
+        "ms": "34120",
+        "words": "Quisiera aprenderme tu nombre"
+      },
+      {
+        "ms": "38110",
+        "words": "Me gustas tanto que"
+      },
+      {
+        "ms": "41350",
+        "words": "No sé por dónde voy"
+      },
+      {
+        "ms": "47240",
+        "words": "Me le acerqué, suspicaz"
+      },
+      {
+        "ms": "52280",
+        "words": "Y le tendí un anzuelo"
+      },
+      {
+        "ms": "54950",
+        "words": "Vamos a fumar un porro ahí"
+      },
+      {
+        "ms": "60090",
+        "words": "Me gusta verte reír (me gustas tanto)"
+      },
+      {
+        "ms": "63920",
+        "words": "Me gusta tanto tu coqueteo"
+      },
+      {
+        "ms": "67790",
+        "words": "Me gusta verte reír (me gustas tanto)"
+      },
+      {
+        "ms": "71630",
+        "words": "Me gusta tanto tu coqueteo"
+      },
+      {
+        "ms": "76620",
+        "words": "♪"
+      },
+      {
+        "ms": "93980",
+        "words": "Tengo una idea, no me hables de ti"
+      },
+      {
+        "ms": "97450",
+        "words": "Y mucho menos de tu pasado"
+      },
+      {
+        "ms": "101530",
+        "words": "Algo en tus labios color carmín"
+      },
+      {
+        "ms": "105170",
+        "words": "Sugiere que vayamos al grano"
+      },
+      {
+        "ms": "109670",
+        "words": "Me gustas tanto"
+      },
+      {
+        "ms": "112550",
+        "words": "Quisiera aprenderme tu nombre"
+      },
+      {
+        "ms": "116560",
+        "words": "Me gustas tanto que"
+      },
+      {
+        "ms": "120160",
+        "words": "No sé por dónde voy"
+      },
+      {
+        "ms": "122050",
+        "words": "Me gusta verte reír (ah, ah, ah)"
+      },
+      {
+        "ms": "125060",
+        "words": "Me gustas tanto quisiera aprenderme tu nombre (me gusta tanto tu coqueteo)"
+      },
+      {
+        "ms": "129620",
+        "words": "Me gusta verte reír (ah, ah, ah)"
+      },
+      {
+        "ms": "132790",
+        "words": "Me gustas tanto que no sé por dónde voy (me gusta tanto tu coqueteo)"
+      },
+      {
+        "ms": "140830",
+        "words": "¡Oh! La alegría llegó, la alegría llegó y"
+      },
+      {
+        "ms": "145050",
+        "words": "Sé que no dura para siempre"
+      },
+      {
+        "ms": "148240",
+        "words": "¡Oh! La alegría llegó, la alegría llegó y"
+      },
+      {
+        "ms": "152580",
+        "words": "Sé que no dura para siempre"
+      },
+      {
+        "ms": "158520",
+        "words": "♪"
+      },
+      {
+        "ms": "163530",
+        "words": "Me gustas tanto"
+      },
+      {
+        "ms": "167220",
+        "words": "Me gustas tanto que..."
+      },
+      {
+        "ms": "171140",
+        "words": "Me gustas tanto"
+      },
+      {
+        "ms": "175310",
+        "words": ""
+      }
+    ]
+  },
+  {
+    "name": "Un Ángel para Tu Soledad",
+    "author": "Patricio Rey y sus Redonditos de Ricota",
+    "image": "https://i.scdn.co/image/ab67616d0000b273af9e234f7bb89453544d6cb1",
+    "lyrics": [
+      {
+        "ms": "43050",
+        "words": "Ya sufriste cosas mejores que estas"
+      },
+      {
+        "ms": "47870",
+        "words": ""
+      },
+      {
+        "ms": "50170",
+        "words": "Y vas a andar esta ruta hoy cuando anochezca"
+      },
+      {
+        "ms": "57170",
+        "words": "Tu esqueleto te trajo hasta aquí"
+      },
+      {
+        "ms": "60740",
+        "words": "Con un cuerpo hambriento, veloz"
+      },
+      {
+        "ms": "64270",
+        "words": "Y aquí, gracias a Dios, uno no cree en lo que oye"
+      },
+      {
+        "ms": "71470",
+        "words": "Ángel de la soledad"
+      },
+      {
+        "ms": "75180",
+        "words": "Y de la desolación"
+      },
+      {
+        "ms": "78330",
+        "words": "Preso de tu ilusión vas a bailar"
+      },
+      {
+        "ms": "82730",
+        "words": "A bailar, bailar"
+      },
+      {
+        "ms": "85680",
+        "words": "Es tan simple, así no podés elegir"
+      },
+      {
+        "ms": "92860",
+        "words": "Claro que no siempre, ¿ves?, resulta bien"
+      },
+      {
+        "ms": "100120",
+        "words": "Atado con doble cordel, el de simular"
+      },
+      {
+        "ms": "106970",
+        "words": "No querés girar maniatado"
+      },
+      {
+        "ms": "110820",
+        "words": "Querés faulear y arremolinar, oh, no"
+      },
+      {
+        "ms": "119080",
+        "words": "♪"
+      },
+      {
+        "ms": "133960",
+        "words": "Medís tu acrobacia y saltás"
+      },
+      {
+        "ms": "137000",
+        "words": "Tu secreto es"
+      },
+      {
+        "ms": "140570",
+        "words": "\"La suerte del principiante no puede fallar\""
+      },
+      {
+        "ms": "148240",
+        "words": "♪"
+      },
+      {
+        "ms": "153440",
+        "words": "Alguna vez, quizás, se te va la mano"
+      },
+      {
+        "ms": "160360",
+        "words": "Y las llamas en pena invaden tu cuerpo"
+      },
+      {
+        "ms": "167560",
+        "words": "Y caes en manos del ángel de la soledad"
+      },
+      {
+        "ms": "174610",
+        "words": "Y él, gracias a Dios, tampoco cree en lo que oye"
+      },
+      {
+        "ms": "181890",
+        "words": "Ángel de la soledad"
+      },
+      {
+        "ms": "185230",
+        "words": "Y de la desolación"
+      },
+      {
+        "ms": "188720",
+        "words": "Preso de tu ilusión vas a bailar"
+      },
+      {
+        "ms": "192970",
+        "words": "A bailar, bailar"
+      },
+      {
+        "ms": "197160",
+        "words": "♪"
+      },
+      {
+        "ms": "201120",
+        "words": "Por mis penas bailá"
+      },
+      {
+        "ms": "205920",
+        "words": ""
+      },
+      {
+        "ms": "208230",
+        "words": "Y por tu soledad"
+      },
+      {
+        "ms": "211240",
+        "words": ""
+      }
     ]
   }
 ]

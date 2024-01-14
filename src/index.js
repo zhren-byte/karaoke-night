@@ -92,9 +92,62 @@ app.get("/spotify-search", function (req, res) {
 				// 		lyrics: false,
 				// 	})
 				// );
-				console.error(err);
+				console.error(err.response.status, err.response.statusText);
 			});
 });
+
+// app.get("/spotify-song", function (req, res) {
+// 	const track = req.query.track;
+// 	if (track) {
+// 		return axios
+// 			.get(
+// 				`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
+// 				{
+// 					headers: {
+// 						Accept: "application/json",
+// 						"Accept-Language": "es-419",
+// 						"App-Platform": "WebPlayer",
+// 						Authorization: `Bearer ${process.env.Authorization}`,
+// 						"Client-Token": process.env.ClientToken,
+// 						Referer: "https://open.spotify.com/",
+// 						"Sec-Ch-Ua":
+// 							'"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+// 						"Sec-Ch-Ua-Mobile": "?0",
+// 						"Sec-Ch-Ua-Platform": "Windows",
+// 						"Spotify-App-Version": "1.2.30.104.ge8490e8d",
+// 						"User-Agent":
+// 							"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+// 					},
+// 				}
+// 			)
+// 			.then(() => {
+// 				getPreview(
+// 					`https://open.spotify.com/intl-es/track/${track}`
+// 				).then((data) =>
+// 					res.send({
+// 						name: data.title,
+// 						author: data.artist,
+// 						image: data.image,
+// 						lyrics: true,
+// 					})
+// 				);
+// 			})
+// 			.catch((err) => {
+// 				getPreview(
+// 					`https://open.spotify.com/intl-es/track/${track}`
+// 				).then((data) =>
+// 					res.send({
+// 						name: data.title,
+// 						author: data.artist,
+// 						image: data.image,
+// 						lyrics: false,
+// 					})
+// 				);
+// 				console.error(err.request.data);
+// 			});
+// 	}
+// });
+
 app.get("/spotify-song", function (req, res) {
 	const track = req.query.track;
 	if (track) {
@@ -119,31 +172,29 @@ app.get("/spotify-song", function (req, res) {
 					},
 				}
 			)
-			.then(() => {
+			.then((response) => {
+				const lyrics = response.data.lyrics.lines.map((line) => ({
+						ms: line.startTimeMs,
+						words: line.words
+				}));
 				getPreview(
 					`https://open.spotify.com/intl-es/track/${track}`
-				).then((data) =>
-					res.send({
+				).then((data) => {
+					const song = {
 						name: data.title,
 						author: data.artist,
 						image: data.image,
-						lyrics: true,
-					})
-				);
+						lyrics,
+					};
+					songsInfo.push(song);
+					fs.writeFileSync(
+						songsPath,
+						JSON.stringify(songsInfo, null, 2)
+					);
+					res.send(song);
+				});
 			})
-			.catch((err) => {
-				getPreview(
-					`https://open.spotify.com/intl-es/track/${track}`
-				).then((data) =>
-					res.send({
-						name: data.title,
-						author: data.artist,
-						image: data.image,
-						lyrics: false,
-					})
-				);
-				console.error(err.request.data);
-			});
+			.catch((err) => console.error(err));
 	}
 });
 app.get("/spotify-to-lrc", function (req, res) {
@@ -211,6 +262,37 @@ app.post("/add-song", function (req, res) {
 		lyrics: req.body.songLyrics.split("\n"),
 	});
 	fs.writeFileSync(songsPath, JSON.stringify(songsInfo, null, 2));
+});
+
+app.get("/lrc-to-ms", function (req, res) {
+	const newSong = []
+	songsInfo.map(e => {
+		const lyrics = []
+		e.lyrics.forEach(line => {
+			const timestampMatch = /\[(\d+:\d+\.\d+)\]/.exec(line);
+			const [minutes, seconds] = timestampMatch[1]
+			.split(":")
+			.map(parseFloat);
+			const currentTime = ((minutes * 60 + seconds) * 1000).toFixed(0);
+			lyrics.push({
+					ms: currentTime,
+					words: line.replace(timestampMatch[0], "")
+			})
+		});
+		newSong.push({
+			name: e.name,
+			author: e.author,
+			image: e.image ? e.image : "",
+			lyrics
+		})
+	})
+	res.json(newSong)
+	fs.writeFileSync(songsPath, JSON.stringify(newSong, null, 2));
+	// songsInfo.push({
+	// 	name: req.body.songTitle,
+	// 	author: req.body.songArtist,
+	// 	lyrics: req.body.songLyrics.split("\n"),
+	// });
 });
 
 app.get("/text-to", function (req, res) {
