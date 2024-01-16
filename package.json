@@ -28,6 +28,6 @@
     "ignore": [
       "public/js/*"
     ],
-    "delay": 2500
+    "delay": 200
   }
 }

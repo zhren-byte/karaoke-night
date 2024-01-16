@@ -2,13 +2,13 @@ function search() {
 	songBox.innerHTML = "";
 	songBox.classList.remove("hidden");
 	const xhttp = new XMLHttpRequest();
-	xhttp.open("GET", `/spotify-search?search=${searchInput.value}`, true);
+	xhttp.open("GET", `/spotify/search?query=${searchInput.value}`, true);
 	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			const res = JSON.parse(this.responseText);
 			res.forEach((song) => {
 				const songLink = document.createElement("a");
-				songLink.href = "/spotify-song?track=" + song.track
+				songLink.href = "/spotify/song?track=" + song.track
 				songLink.classList = "flex items-center mb-2";
 				const songImg = document.createElement("img");
 				songImg.src = song.image;

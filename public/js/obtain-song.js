@@ -1,6 +1,9 @@
 const lyricsDiv = song.querySelector("#lyrics");
 const xhttp = new XMLHttpRequest();
-xhttp.open("GET", "/obtain-song", true);
+let params = new URL(document.location).searchParams;
+let songQuery = params.get("song");
+if (songQuery) xhttp.open("GET", `/api/load?song=${songQuery}`, true);
+if (!songQuery) xhttp.open("GET", `/api/load`, true);
 xhttp.onreadystatechange = function () {
 	if (this.readyState == 4 && this.status == 200) {
 		const res = JSON.parse(this.responseText);
@@ -17,14 +20,12 @@ xhttp.onreadystatechange = function () {
 				const progress = timestamp - startTime;
 				const percentage = Math.min((progress / duration) * 100, 100);
 				progressBar.style.width = percentage + "%";
-		
-				if (progress < duration) {
-					requestAnimationFrame(animate);
-				}
+
+				if (progress < duration) requestAnimationFrame(animate);
 			}
-		
 			requestAnimationFrame(animate);
 		}
+
 		async function displayLyrics() {
 			if (currentIndex < res.lyrics.length) {
 				let line = res.lyrics[currentIndex];
@@ -38,7 +39,7 @@ xhttp.onreadystatechange = function () {
 						)
 					);
 
-				const intervalTime = (line.ms - startTime);
+				const intervalTime = line.ms - startTime;
 				startTime = parseInt(line.ms);
 				await new Promise((resolve) =>
 					setTimeout(resolve, intervalTime)
@@ -99,7 +100,7 @@ xhttp.onreadystatechange = function () {
 				displayLyrics();
 			}
 		}
-		updateProgressBar((res.lyrics[res.lyrics.length - 1].ms));
+		updateProgressBar(res.lyrics[res.lyrics.length - 1].ms);
 		displayLyrics();
 	}
 };
