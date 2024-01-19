@@ -28,6 +28,25 @@ const getToken = async () => {
 		.catch((err) => console.log(err));
 };
 
+router.get("/", async function (req, res) {
+	// Agrupar canciones por artista
+	const groupedSongs = songsInfo.reduce((acc, song) => {
+		if (!acc[song.author]) acc[song.author] = [];
+		acc[song.author].push({song: song.name, track: song.track});
+		return acc;
+	}, {});
+
+	// Convertir el objeto en un array de objetos para Handlebars
+	const artistSongs = Object.keys(groupedSongs).map((author) => ({
+		author,
+		songs: groupedSongs[author],
+	}));
+	res.render("spotify", {
+		title: "Karaoke Night",
+		artistSongs,
+	});
+});
+
 router.get("/token", async function (req, res) {
 	return axios
 		.get(
@@ -46,14 +65,16 @@ router.get("/token", async function (req, res) {
 
 router.get("/search", async function (req, res) {
 	const search = req.query.query;
-	if (search)
+	const limit = req.query.limit || 4;
+	if (search) {
+		const token = await getToken();
 		return axios
 			.get(
-				`https://api-partner.spotify.com/pathfinder/v1/query?operationName=searchTracks&variables=%7B%22searchTerm%22%3A%22${search}%22%2C%22offset%22%3A0%2C%22limit%22%3A4%2C%22numberOfTopResults%22%3A3%2C%22includeAudiobooks%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2216c02d6304f5f721fc2eb39dacf2361a4543815112506a9c05c9e0bc9733a679%22%7D%7D`,
+				`https://api-partner.spotify.com/pathfinder/v1/query?operationName=searchTracks&variables=%7B%22searchTerm%22%3A%22${search}%22%2C%22offset%22%3A0%2C%22limit%22%3A${limit}%2C%22numberOfTopResults%22%3A3%2C%22includeAudiobooks%22%3Afalse%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2216c02d6304f5f721fc2eb39dacf2361a4543815112506a9c05c9e0bc9733a679%22%7D%7D`,
 				{
 					headers: {
 						"App-Platform": "WebPlayer",
-						Authorization: `Bearer ${await getToken()}`,
+						Authorization: `Bearer ${token}`,
 					},
 				}
 			)
@@ -75,6 +96,8 @@ router.get("/search", async function (req, res) {
 			.catch((err) => {
 				console.error(err);
 			});
+	}
+	return res.render("search");
 });
 
 router.get("/song", async function (req, res) {
@@ -135,6 +158,30 @@ router.get("/song", async function (req, res) {
 				lyrics: false,
 			});
 			console.error(err.data.status, err.data.statusText);
+		});
+});
+router.get("/lyrics", async function (req, res) {
+	const track = req.query.track;
+	if (!track) return res.json({ response: "Ingresa el ID de la canción" });
+	const token = await getToken();
+	return axios
+		.get(
+			`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
+			{
+				headers: {
+					"App-Platform": "WebPlayer",
+					Authorization: `Bearer ${token}`,
+				},
+			}
+		)
+		.then((lyricsInfo) => {
+			const lyrics = lyricsInfo.data.lyrics.lines.map(
+				(line) => line.words
+			);
+			res.json(lyrics);
+		})
+		.catch((err) => {
+			res.json(["No hay letras disponibles"]);
 		});
 });
 

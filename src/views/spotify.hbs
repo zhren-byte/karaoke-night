@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/output.css" />
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <div class="flex h-screen bg-gray-900 text-white">
+        <aside class="w-64 bg-gray-800 p-6 overflow-y-auto">
+            <h2 class="text-2xl font-bold mb-4">Lista de canciones</h2>
+            {{#each artistSongs}}
+            <h3 class="text-xl font-semibold mb-2">{{author}}</h3>
+            <ul>
+                {{#each songs}}
+                <li class="mb-2"><a class="text-lg hover:text-blue-500" href="/spotify/?song={{this.track}}">{{this.song}}</a>
+                </li>
+                {{/each}}
+            </ul>
+            {{/each}}
+        </aside>
+        <div class="flex flex-col flex-1">
+            <header class="p-6 flex justify-between items-center">
+                <h1 class="text-4xl font-bold">{{title}}</h1>
+                <div class="relative w-96">
+                    <input class="h-10 pl-2 pr-10 rounded-lg bg-gray-800 text-white w-full focus:outline-none"
+                        placeholder="Buscar canciones..." type="search" id="searchInput" />
+                    <button type="submit" class="absolute right-0 top-0 mt-3 mr-2" onclick="search()">
+                        <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 56.966 56.966">
+                            <path
+                                d="M55.146 51.887L41.588 37.786c3.486-4.144 5.396-9.358 5.396-14.786 0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c5.428 0 10.642-1.911 14.786-5.396l13.557 14.101c.571.593 1.339.92 2.162.92s1.591-.327 2.162-.92C56.255 54.417 56.255 53.08 55.146 51.887zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17S14.61 6 23.984 6z">
+                            </path>
+                        </svg>
+                    </button>
+                    <div class="hidden absolute top-full mt-2 w-96 rounded-lg bg-gray-800 text-white p-2" id="songBox">
+                        <a href="#" class="flex items-center mb-2">
+                            <img src="" class="w-12 h-12 rounded-full mr-2" width="50" height="50"
+                                style="aspect-ratio: 50 / 50; object-fit: cover;" />
+                            <div>
+                                <h4 class="text-lg font-semibold">Song Name</h4>
+                                <p class="text-sm">Artist Name</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 ml-2 hidden"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            {{!-- <main class="flex-1 flex flex-col justify-center items-center">
+                <div class="h-2/3 text-center" id="song">
+                    <h2 class="text-3xl font-semibold mb-2" id="name">Bohemian Rhapsody</h2>
+                    <h3 class="text-xl mb-8" id="author">Queen</h3>
+                    <div class="text-lg leading-relaxed h-1/2 relative" id="lyrics">
+                        {{! <p
+                            class="-translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500 ">
+                            Is this the real life? Is this just fantasy?</p>
+                        <p
+                            class="-translate-y-0 -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-2xl">
+                            Caught in a landslide, no escape from reality</p>
+                        <p
+                            class="translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500">
+                            Open your eyes, look up to the skies and see</p> }}
+                    </div>
+                </div>
+            </main> --}}
+            <main class="flex-1 p-4 md:p-6" id="song">
+                <div class="flex items-center gap-4">
+                    <img width="64" height="64" alt="Album Cover" class="rounded-full"
+                        style="aspect-ratio: 64 / 64; object-fit: cover;" />
+                    <div class="text-sm">
+                        <div class="font-medium" id="name">Song Title</div>
+                        <div class="text-gray-500" id="author">Artist Name</div>
+                    </div>
+                </div>
+                <div class="mt-4 text-lg overflow-y-auto h-96" id="lyricsDiv">
+                    {{!-- <p class="font-semibold">Lyrics for the song</p>
+                    <p class="text-gray-500">Lyrics for the song, highlighting the current line being sung.</p> --}}
+                </div>
+            </main>
+            <aside class="hidden w-64 bg-gray-800 p-6 overflow-y-auto absolute -translate-y-1/2 top-1/2 right-0"
+                id="votesBox">
+                <h3>Total Votes : <span id="totalVotes"></span></h3>
+            </aside>
+            <footer class="h-8 bg-gray-800">
+                <div class="h-full flex items-center px-6">
+                    <div class="w-full h-1 bg-gray-700 rounded-full overflow-hidden">
+                        <div class="h-full bg-blue-500 ease-in transition" style="width: 0%;" id="progressBar"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="../socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="../js/load-spotify.js"></script>
+    <script type="text/javascript" src="../js/delivery-search.js"></script>
+    {{!--
+    <script type="text/javascript" src="./js/votes.js"></script> --}}
+</body>
+
+</html>

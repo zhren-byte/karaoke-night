@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: "CircularSp";
+	src: url("../CircularSp.woff2") format("woff2");
+}
+
+@layer components {
+	#lyricsDiv {
+		font-family: "CircularSp", sans-serif;
+	}
+}
