@@ -5,7 +5,7 @@ let songQuery = params.get("song");
 if (songQuery) xhttp.open("GET", `/api/load?song=${songQuery}`, true);
 if (!songQuery) xhttp.open("GET", `/api/load`, true);
 xhttp.onreadystatechange = function () {
-	if (this.readyState == 4 && this.status == 200) {
+	if (this.readyState == 4 && this.status == 200 && this.responseText != "") {
 		const res = JSON.parse(this.responseText);
 		song.querySelector("#author").innerHTML = res.author;
 		song.querySelector("#name").innerHTML = res.name;
@@ -20,12 +20,12 @@ xhttp.onreadystatechange = function () {
 				const progress = timestamp - startTime;
 				const percentage = Math.min((progress / duration) * 100, 100);
 				progressBar.style.width = percentage + "%";
-
+				
 				if (progress < duration) requestAnimationFrame(animate);
 			}
 			requestAnimationFrame(animate);
 		}
-
+		
 		async function displayLyrics() {
 			if (currentIndex < res.lyrics.length) {
 				let line = res.lyrics[currentIndex];
@@ -100,7 +100,7 @@ xhttp.onreadystatechange = function () {
 				displayLyrics();
 			}
 		}
-		updateProgressBar(res.lyrics[res.lyrics.length - 1].ms);
+		updateProgressBar(res.duration_ms);
 		displayLyrics();
 	}
 };

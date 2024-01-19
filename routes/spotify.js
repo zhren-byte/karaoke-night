@@ -3,8 +3,6 @@ const path = require("node:path");
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
-const fetch = require("isomorphic-unfetch");
-const { getPreview } = require("spotify-url-info")(fetch);
 
 const songsPath = path.join(__dirname, "../json/songs.json");
 
@@ -20,7 +18,7 @@ const getToken = async () => {
 			`https://open.spotify.com/get_access_token?reason=transport&productType=web-player`,
 			{
 				headers: {
-					Cookie: "sp_t=9d2a91a974a44e3aefb951d7000f86b8; sp_adid=4d27a756-0963-472d-8a92-ccfc01ddb74a; OptanonAlertBoxClosed=2023-08-23T06:06:59.592Z; _gcl_au=1.1.272951740.1700762766; sss=1; sp_dc=AQCYH34jUXKxEnQ-QLsQxC8-uBPk3wW0wXmUTd1jdfyfcq4yJFKNeMZyyU1HQzaQ3ggBEKtr-tso4sOBtYLVFNcmEWC6MtsZlbZW5U2XoueJ_OHiIrB3A1zKFvZCyZm34qvzJQE-jX0fYYUAHWQM-viPNMke2zQz_9oH81PxH7cwr-6kOBHdq_up0CR5rurePi5JvNOTyKeJw0gwAsSjMkXunGdX; sp_key=60b9d8a4-589d-4a63-b522-689542704522; _ga_ZWRF3NLZJZ=GS1.1.1705197604.1.1.1705197820.0.0.0; sp_landing=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D9d2a91a974a44e3aefb951d7000f86b8%26device%3Ddesktop; _gid=GA1.2.1595907346.1705380868; OptanonConsent=isIABGlobal=false&datestamp=Tue+Jan+16+2024+01%3A54%3A39+GMT-0300+(hora+est%C3%A1ndar+de+Argentina)&version=202309.1.0&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1%2Cm03%3A1&AwaitingReconsent=false&geolocation=AR%3BB&isGpcEnabled=0&browserGpcFlag=0; _ga=GA1.2.1249188117.1692770802; _ga_ZWG1NSHWD8=GS1.1.1705383262.156.1.1705383270.0.0.0",
+					Cookie: `sp_dc=${process.env.COOKIE_SPOTIFY}`,
 				},
 			}
 		)
@@ -29,20 +27,21 @@ const getToken = async () => {
 		})
 		.catch((err) => console.log(err));
 };
+
 router.get("/token", async function (req, res) {
 	return axios
-	.get(
-		`https://open.spotify.com/get_access_token?reason=transport&productType=web-player`,
-		{
-			headers: {
-				Cookie: "sp_dc=AQCYH34jUXKxEnQ-QLsQxC8-uBPk3wW0wXmUTd1jdfyfcq4yJFKNeMZyyU1HQzaQ3ggBEKtr-tso4sOBtYLVFNcmEWC6MtsZlbZW5U2XoueJ_OHiIrB3A1zKFvZCyZm34qvzJQE-jX0fYYUAHWQM-viPNMke2zQz_9oH81PxH7cwr-6kOBHdq_up0CR5rurePi5JvNOTyKeJw0gwAsSjMkXunGdX;",
-			},
-		}
-	)
-	.then((response) => {
-		return res.json(response.data);
-	})
-	.catch((err) => res.send("error"));
+		.get(
+			`https://open.spotify.com/get_access_token?reason=transport&productType=web-player`,
+			{
+				headers: {
+					Cookie: `sp_dc=${process.env.COOKIE_SPOTIFY}`,
+				},
+			}
+		)
+		.then((response) => {
+			return res.json(response.data);
+		})
+		.catch((err) => res.send(err));
 });
 
 router.get("/search", async function (req, res) {
@@ -59,7 +58,6 @@ router.get("/search", async function (req, res) {
 				}
 			)
 			.then((response) => {
-				// console.log(response.data.data.searchV2.tracksV2.items[0].item.data.name)
 				const songList = response.data.data.searchV2.tracksV2.items.map(
 					(line) => {
 						return {
@@ -81,30 +79,47 @@ router.get("/search", async function (req, res) {
 
 router.get("/song", async function (req, res) {
 	const track = req.query.track;
-	if (track) {
-		return axios
-			.get(
-				`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
-				{
-					headers: {
-						"App-Platform": "WebPlayer",
-						Authorization: `Bearer ${await getToken()}`,
-					},
-				}
-			)
-			.then((response) => {
-				const lyrics = response.data.lyrics.lines.map((line) => ({
-					ms: line.startTimeMs,
-					words: line.words,
-				}));
-				getPreview(
-					`https://open.spotify.com/intl-es/track/${track}`
-				).then((data) => {
+	if (!track) return res.json({ response: "Ingresa el ID de la canción" });
+	const isFound = songsInfo.some((song) => {
+		if (song.track === track) return true;
+		return false;
+	});
+	if (isFound) return res.json({ response: "Esta canción ya existe" });
+
+	const token = await getToken();
+	return axios
+		.get(
+			`https://spclient.wg.spotify.com/color-lyrics/v2/track/${track}/image/https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273833f2d8d0037a5ae87595fb0?format=json&vocalRemoval=false&market=from_token`,
+			{
+				headers: {
+					"App-Platform": "WebPlayer",
+					Authorization: `Bearer ${token}`,
+				},
+			}
+		)
+		.then((lyricsInfo) => {
+			axios
+				.get(
+					`https://api.spotify.com/v1/tracks?ids=${track}&market=from_token`,
+					{
+						headers: {
+							"App-Platform": "WebPlayer",
+							Authorization: `Bearer ${token}`,
+						},
+					}
+				)
+				.then((info) => {
+					const lyrics = lyricsInfo.data.lyrics.lines.map((line) => ({
+						ms: line.startTimeMs,
+						words: line.words,
+					}));
 					const song = {
-						name: data.title,
-						author: data.artist,
-						image: data.image,
-						track,
+						name: info.data.tracks[0].name,
+						author: info.data.tracks[0].artists[0].name,
+						images: info.data.tracks[0].album.images,
+						album: info.data.tracks[0].album.name,
+						duration_ms: info.data.tracks[0].duration_ms,
+						track: info.data.tracks[0].id,
 						lyrics,
 					};
 					songsInfo.push(song);
@@ -114,9 +129,13 @@ router.get("/song", async function (req, res) {
 					);
 					res.redirect("/?song=" + track);
 				});
-			})
-			.catch((err) => console.error(err));
-	}
+		})
+		.catch((err) => {
+			res.json({
+				lyrics: false,
+			});
+			console.error(err.data.status, err.data.statusText);
+		});
 });
 
 module.exports = router;

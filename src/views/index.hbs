@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/output.css">
-    <title>{{ title }}</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/output.css" />
+    <title>{{title}}</title>
 </head>
 
 <body>
@@ -16,14 +15,14 @@
             <h3 class="text-xl font-semibold mb-2">{{author}}</h3>
             <ul>
                 {{#each songs}}
-                <li class="mb-2"><a class="text-lg hover:text-blue-500">{{this}}</a></li>
+                <li class="mb-2"><a class="text-lg hover:text-blue-500" href="/?song={{this.track}}">{{this.song}}</a></li>
                 {{/each}}
             </ul>
             {{/each}}
         </aside>
         <div class="flex flex-col flex-1">
             <header class="p-6 flex justify-between items-center">
-                <h1 class="text-4xl font-bold">{{ title }}</h1>
+                <h1 class="text-4xl font-bold">{{title}}</h1>
                 <div class="relative w-96">
                     <input class="h-10 pl-2 pr-10 rounded-lg bg-gray-800 text-white w-full focus:outline-none"
                         placeholder="Buscar canciones..." type="search" id="searchInput" />
@@ -58,7 +57,7 @@
                     <h2 class="text-3xl font-semibold mb-2" id="name">Bohemian Rhapsody</h2>
                     <h3 class="text-xl mb-8" id="author">Queen</h3>
                     <div class="text-lg leading-relaxed h-1/2 relative" id="lyrics">
-                        {{!-- <p
+                        {{! <p
                             class="-translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500 ">
                             Is this the real life? Is this just fantasy?</p>
                         <p
@@ -66,10 +65,13 @@
                             Caught in a landslide, no escape from reality</p>
                         <p
                             class="translate-y-full -translate-x-1/2 top-1/2 left-1/2 absolute text-nowrap transition-transform text-gray-500">
-                            Open your eyes, look up to the skies and see</p> --}}
+                            Open your eyes, look up to the skies and see</p> }}
                     </div>
                 </div>
             </main>
+            <aside class="hidden w-64 bg-gray-800 p-6 overflow-y-auto absolute -translate-y-1/2 top-1/2 right-0" id="votesBox">
+                <h3>Total Votes : <span id="totalVotes"></span></h3>
+            </aside>
             <footer class="h-8 bg-gray-800">
                 <div class="h-full flex items-center px-6">
                     <div class="w-full h-1 bg-gray-700 rounded-full overflow-hidden">
@@ -79,8 +81,10 @@
             </footer>
         </div>
     </div>
-    <script src="./js/load.js"></script>
-    <script src="./js/delivery-search.js"></script>
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./js/load.js"></script>
+    <script type="text/javascript" src="./js/delivery-search.js"></script>
+    {{!-- <script type="text/javascript" src="./js/votes.js"></script> --}}
 </body>
 
 </html>
